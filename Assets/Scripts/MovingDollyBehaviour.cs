@@ -22,7 +22,7 @@ public class MovingDollyBehaviour : MonoBehaviour
     #endregion
 
     #region "UNITY_FUNCTIONS"
-    void LateUpdate()
+    void FixedUpdate()
     {
         MoveTransform();
     }
