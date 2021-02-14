@@ -46,7 +46,7 @@ public class MovingManager : MonoBehaviour
 
     private void MoveToNextTrail(float velocityY)
     {
-        if (currentTrailIndex < 2)
+        if (currentTrailIndex < trails.Count - 1)
         {
             currentTrailIndex++;
             currentVelocityY = velocityY;
