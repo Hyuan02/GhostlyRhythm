@@ -338,7 +338,7 @@ GameObject:
   m_Component:
   - component: {fileID: 697624723}
   m_Layer: 0
-  m_Name: Trail 3
+  m_Name: Trail 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -352,11 +352,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 697624722}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -3, z: 0}
+  m_LocalPosition: {x: 0, y: -1.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1598402882}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &761900370
 GameObject:
@@ -368,7 +368,6 @@ GameObject:
   m_Component:
   - component: {fileID: 761900371}
   - component: {fileID: 761900372}
-  - component: {fileID: 761900373}
   m_Layer: 0
   m_Name: MovingDolly
   m_TagString: Untagged
@@ -390,7 +389,6 @@ Transform:
   - {fileID: 652795186}
   - {fileID: 1768877777}
   - {fileID: 2025991134}
-  - {fileID: 2079752610}
   - {fileID: 1598402882}
   m_Father: {fileID: 0}
   m_RootOrder: 1
@@ -408,18 +406,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speedX: 0.2
---- !u!114 &761900373
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 761900370}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 264e764c85a403549b2f1d7431717057, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1314346324
 GameObject:
   m_ObjectHideFlags: 0
@@ -430,7 +416,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1314346325}
   m_Layer: 0
-  m_Name: Trail 2
+  m_Name: Trail 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -448,7 +434,37 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1598402882}
-  m_RootOrder: 1
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1502442376
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1502442377}
+  m_Layer: 0
+  m_Name: Trail 5
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1502442377
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1502442376}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -3, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1598402882}
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1598402881
 GameObject:
@@ -478,10 +494,12 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2103332205}
+  - {fileID: 1809667558}
   - {fileID: 1314346325}
   - {fileID: 697624723}
+  - {fileID: 1502442377}
   m_Father: {fileID: 761900371}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1740031742
 GameObject:
@@ -684,8 +702,40 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   trails:
   - {fileID: 2103332204}
+  - {fileID: 1809667557}
   - {fileID: 1314346324}
   - {fileID: 697624722}
+  - {fileID: 1502442376}
+--- !u!1 &1809667557
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1809667558}
+  m_Layer: 0
+  m_Name: Trail 2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1809667558
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1809667557}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1598402882}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2025991132
 GameObject:
   m_ObjectHideFlags: 0
@@ -837,7 +887,7 @@ GameObject:
   - component: {fileID: 2079752610}
   - component: {fileID: 2079752609}
   m_Layer: 0
-  m_Name: AudioReacter
+  m_Name: EnemySpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -861,7 +911,14 @@ MonoBehaviour:
   restSmoothTime: 0
   enemyObject: {fileID: 3210792686962062238, guid: 5004cb13e99cd8e448ed412a2936e1f5,
     type: 3}
-  enemyX: 0
+  movingDolly: {fileID: 1768877775}
+  trailsObject:
+  - {fileID: 2103332204}
+  - {fileID: 1809667557}
+  - {fileID: 1314346324}
+  - {fileID: 697624722}
+  - {fileID: 1502442376}
+  enemyX: 15
 --- !u!4 &2079752610
 Transform:
   m_ObjectHideFlags: 0
@@ -873,7 +930,7 @@ Transform:
   m_LocalPosition: {x: 2.6151996, y: 0.5305628, z: -2.081494}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 761900371}
+  m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2103332204
