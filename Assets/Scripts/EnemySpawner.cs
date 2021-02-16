@@ -48,10 +48,10 @@ public class EnemySpawner : MonoBehaviour
    
 
     void spawnEnemies(){
-        //var enemyY = TrailsManager.instance.OccupiedTrail.trailObject.transform.position.y; 
-           
-           //Debug.Log(enemyY);
-        var enemyY = posY[Random.Range(0,5)];
+        var enemyY = TrailsManager.instance.OccupiedTrail.trailObject.transform.position.y;
+
+        //Debug.Log(enemyY);
+        //var enemyY = posY[Random.Range(0,5)];
         if(audioSource.timeSamples == 617164 && enemySpawn[0] == false){   //aprox. 14 segundos/617400 
            enemies[0] = Instantiate(enemyObject,new Vector3(movingDolly.transform.position.x+enemyOffsetX, enemyY, enemyZ), transform.rotation);
            enemySpawn[0] = true;
