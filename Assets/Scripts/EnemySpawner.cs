@@ -34,7 +34,9 @@ public class EnemySpawner : MonoBehaviour
     void spawnEnemies(){
         
         if(audioSource.timeSamples == 709363){
-           enemies[0] = Instantiate(enemyObject,new Vector3(movingDolly.transform.position.x+15f, 0, enemyZ), transform.rotation );
+           //var enemyY = TrailsManager.instance.OccupiedTrail.trailObject.transform.position.y; 
+           //Debug.Log(enemyY);
+           enemies[0] = Instantiate(enemyObject,new Vector3(movingDolly.transform.position.x+16.5f, 0, enemyZ), transform.rotation );
            
         }
     }
