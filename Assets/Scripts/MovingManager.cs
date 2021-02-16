@@ -11,7 +11,7 @@ public class MovingManager : MonoBehaviour
     #endregion
 
     #region "PRIVATE_PROPERTIES"
-    private int currentTrailIndex = 1;
+    private int currentTrailIndex = 2;
     private float currentVelocityY = 0;
     #endregion
 
