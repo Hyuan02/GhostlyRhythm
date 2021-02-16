@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -648,6 +648,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1323745360}
+  - component: {fileID: 1323745361}
   m_Layer: 0
   m_Name: Trails
   m_TagString: Untagged
@@ -674,6 +675,29 @@ Transform:
   m_Father: {fileID: 1707741819}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1323745361
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1323745359}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6828827a120ff4b40947b1b7b511c705, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trailsOfGame:
+  - trailObject: {fileID: 1006550054}
+    state: 0
+  - trailObject: {fileID: 911754200}
+    state: 0
+  - trailObject: {fileID: 1740468027}
+    state: 0
+  - trailObject: {fileID: 1886864217}
+    state: 0
+  - trailObject: {fileID: 1243846606}
+    state: 0
 --- !u!1 &1661627839
 GameObject:
   m_ObjectHideFlags: 0
