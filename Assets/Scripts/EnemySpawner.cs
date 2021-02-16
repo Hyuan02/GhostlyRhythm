@@ -18,7 +18,7 @@ public class EnemySpawner : MonoBehaviour
     void Start()
     {
         audioSource = GetComponent<AudioSource>();
-        enemyX = movingDolly.transform.position.x;
+        
         enemyZ = 2f;
     }
 
@@ -34,8 +34,8 @@ public class EnemySpawner : MonoBehaviour
     void spawnEnemies(){
         
         if(audioSource.timeSamples == 709363){
-           //enemies[0] =
-            Instantiate(enemyObject,new Vector3(enemyX, 0, enemyZ), transform.rotation);
+           enemies[0] = Instantiate(enemyObject,new Vector3(movingDolly.transform.position.x+15f, 0, enemyZ), transform.rotation );
+           
         }
     }
 
