@@ -6,11 +6,11 @@ public class EnemySpawner : MonoBehaviour
 {
     // Start is called before the first frame update
     public GameObject enemyObject;
-    public int enemiesNumber = 64; // ATENÇÃO PARA ESSE NUMERO
-    private GameObject[] enemies = new GameObject[64];
+    public int enemiesNumber = 204; // ATENÇÃO PARA ESSE NUMERO
+    private GameObject[] enemies = new GameObject[204];
 
-    private bool[] enemySpawn = new bool[64]; 
-    private bool[] enemyMove = new bool[64]; 
+    private bool[] enemySpawn = new bool[204]; 
+    private bool[] enemyMove = new bool[204]; 
 
     AudioSource audioSource;
     
@@ -48,10 +48,10 @@ public class EnemySpawner : MonoBehaviour
    
 
     void spawnEnemies(){
-        //var enemyY = TrailsManager.instance.OccupiedTrail.trailObject.transform.position.y;
+        var enemyY = TrailsManager.instance.OccupiedTrail.trailObject.transform.position.y;
 
         //Debug.Log(enemyY);
-        var enemyY = posY[Random.Range(0,5)];
+        //var enemyY = posY[Random.Range(0,5)];
         if(audioSource.timeSamples >= 617164 && enemySpawn[0] == false){   //aprox. 14 segundos/617400 
            enemies[0] = Instantiate(enemyObject,new Vector3(movingDolly.transform.position.x+enemyOffsetX, enemyY, enemyZ), transform.rotation);
            enemySpawn[0] = true;
