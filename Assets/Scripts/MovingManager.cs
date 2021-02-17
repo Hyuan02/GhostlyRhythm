@@ -67,7 +67,7 @@ public class MovingManager : MonoBehaviour
 
 
     #region "UNITY_METHODS"
-    private void Awake()
+    private void Start()
     {
         currentTrail = TrailsManager.instance.OccupyTrail(currentTrailIndex);
         this.transform.position = new Vector3(this.transform.position.x, currentTrail.trailObject.transform.position.y, this.transform.position.z);

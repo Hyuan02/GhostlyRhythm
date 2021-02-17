@@ -53,260 +53,260 @@ public class EnemySpawner : MonoBehaviour
         //Debug.Log(enemyY);
         //var enemyY = posY[Random.Range(0,5)];
         if(audioSource.timeSamples >= 617164 && enemySpawn[0] == false){   //aprox. 14 segundos/617400 
-           enemies[0] = Instantiate(enemyObject,new Vector3(movingDolly.transform.position.x+enemyOffsetX, enemyY, enemyZ), transform.rotation);
+           enemies[0] = SpawnEnemy();
            enemySpawn[0] = true;
         }
         if(audioSource.timeSamples >= 639743 && enemySpawn[1] == false){   //aprox. 14.5 segundos/651450 
-           enemies[1] = Instantiate(enemyObject,new Vector3(movingDolly.transform.position.x+enemyOffsetX, enemyY, enemyZ), transform.rotation);
+           enemies[1] = SpawnEnemy();
            enemySpawn[1] = true;
         }
         if(audioSource.timeSamples >=651974 && enemySpawn[2] == false){   //aprox. 15.0 segundos/661500 
-           enemies[2] = Instantiate(enemyObject,new Vector3(movingDolly.transform.position.x+enemyOffsetX, enemyY, enemyZ), transform.rotation);
+           enemies[2] = SpawnEnemy();
            enemySpawn[2] = true;
         }
         if(audioSource.timeSamples >= 683961 && enemySpawn[3] == false){   //aprox. 15.5 segundos/683550 
-           enemies[3] = Instantiate(enemyObject,new Vector3(movingDolly.transform.position.x+enemyOffsetX, enemyY, enemyZ), transform.rotation);
+           enemies[3] = SpawnEnemy();
            enemySpawn[3] = true;
         }
         if(audioSource.timeSamples >= 705599 && enemySpawn[4] == false){   //aprox. 16 segundos/705600
-           enemies[4] = Instantiate(enemyObject,new Vector3(movingDolly.transform.position.x+enemyOffsetX, enemyY, enemyZ), transform.rotation);
+           enemies[4] = SpawnEnemy();
            enemySpawn[4] = true;
         }
         if(audioSource.timeSamples >= 727238 && enemySpawn[5] == false){   //aprox. 16.5 segundos/727650
-           enemies[5] = Instantiate(enemyObject,new Vector3(movingDolly.transform.position.x+enemyOffsetX, enemyY, enemyZ), transform.rotation);
+           enemies[5] = SpawnEnemy();
            enemySpawn[5] = true;
         }
         if(audioSource.timeSamples >= 749817 && enemySpawn[6] == false){   //aprox. 17 segundos/749700
-           enemies[6] = Instantiate(enemyObject,new Vector3(movingDolly.transform.position.x+enemyOffsetX, enemyY, enemyZ), transform.rotation);
+           enemies[6] = SpawnEnemy();
            enemySpawn[6] = true;
         }
         if(audioSource.timeSamples >= 771455 && enemySpawn[7] == false){   //aprox. 17.5 segundos/771750
-           enemies[7] = Instantiate(enemyObject,new Vector3(movingDolly.transform.position.x+enemyOffsetX, enemyY, enemyZ), transform.rotation);
+           enemies[7] = SpawnEnemy();
            enemySpawn[7] = true;
         }
         if(audioSource.timeSamples >= 794035 && enemySpawn[8] == false){   //aprox. 18 segundos/793800
-           enemies[8] = Instantiate(enemyObject,new Vector3(movingDolly.transform.position.x+enemyOffsetX, enemyY, enemyZ), transform.rotation);
+           enemies[8] = SpawnEnemy();
            enemySpawn[8] = true;
         }
         if(audioSource.timeSamples >= 815673 && enemySpawn[9] == false){   //aprox. 18.5 segundos/815850
-           enemies[9] = Instantiate(enemyObject,new Vector3(movingDolly.transform.position.x+enemyOffsetX, enemyY, enemyZ), transform.rotation);
+           enemies[9] = SpawnEnemy();
            enemySpawn[9] = true;
         }
          if(audioSource.timeSamples >= 838252 && enemySpawn[10] == false){   //aprox. 19 segundos/837900
-           enemies[10] = Instantiate(enemyObject,new Vector3(movingDolly.transform.position.x+enemyOffsetX, enemyY, enemyZ), transform.rotation);
+           enemies[10] = SpawnEnemy();
            enemySpawn[10] = true;
         }
          
          if(audioSource.timeSamples >= 859950 && enemySpawn[11] == false){   //aprox. 14 segundos/617400 
-           enemies[11] = Instantiate(enemyObject,new Vector3(movingDolly.transform.position.x+enemyOffsetX, enemyY, enemyZ), transform.rotation);
+           enemies[11] = SpawnEnemy();
            enemySpawn[11] = true;
         }
         if(audioSource.timeSamples >= 884546 && enemySpawn[12] == false){   //aprox. 14.5 segundos/651450 
-           enemies[12] = Instantiate(enemyObject,new Vector3(movingDolly.transform.position.x+enemyOffsetX, enemyY, enemyZ), transform.rotation);
+           enemies[12] = SpawnEnemy();
            enemySpawn[12] = true;
         }
         if(audioSource.timeSamples >= 905280 && enemySpawn[13] == false){   //aprox. 15.0 segundos/661500 
-           enemies[13] = Instantiate(enemyObject,new Vector3(movingDolly.transform.position.x+enemyOffsetX, enemyY, enemyZ), transform.rotation);
+           enemies[13] = SpawnEnemy();
            enemySpawn[13] = true;
         }
         if(audioSource.timeSamples >= 927330 && enemySpawn[14] == false){   //aprox. 15.5 segundos/683550 
-           enemies[14] = Instantiate(enemyObject,new Vector3(movingDolly.transform.position.x+enemyOffsetX, enemyY, enemyZ), transform.rotation);
+           enemies[14] = SpawnEnemy();
            enemySpawn[14] = true;
         }
         if(audioSource.timeSamples >= 950610 && enemySpawn[15] == false){   //aprox. 16 segundos/705600
-           enemies[15] = Instantiate(enemyObject,new Vector3(movingDolly.transform.position.x+enemyOffsetX, enemyY, enemyZ), transform.rotation);
+           enemies[15] = SpawnEnemy();
            enemySpawn[15] = true;
         }
         if(audioSource.timeSamples >= 972660 && enemySpawn[16] == false){   //aprox. 16.5 segundos/727650
-           enemies[16] = Instantiate(enemyObject,new Vector3(movingDolly.transform.position.x+enemyOffsetX, enemyY, enemyZ), transform.rotation);
+           enemies[16] = SpawnEnemy();
            enemySpawn[16] = true;
         }
         if(audioSource.timeSamples >= 992250 && enemySpawn[17] == false){   //aprox. 17 segundos/749700
-           enemies[17] = Instantiate(enemyObject,new Vector3(movingDolly.transform.position.x+enemyOffsetX, enemyY, enemyZ), transform.rotation);
+           enemies[17] = SpawnEnemy();
            enemySpawn[17] = true;
         }
         if(audioSource.timeSamples >= 1016760 && enemySpawn[18] == false){   //aprox. 17.5 segundos/771750
-           enemies[18] = Instantiate(enemyObject,new Vector3(movingDolly.transform.position.x+enemyOffsetX, enemyY, enemyZ), transform.rotation);
+           enemies[18] = SpawnEnemy();
            enemySpawn[18] = true;
         }
         if(audioSource.timeSamples >= 1036350 && enemySpawn[19] == false){   //aprox. 18 segundos/793800
-           enemies[19] = Instantiate(enemyObject,new Vector3(movingDolly.transform.position.x+enemyOffsetX, enemyY, enemyZ), transform.rotation);
+           enemies[19] = SpawnEnemy();
            enemySpawn[19] = true;
         }
         if(audioSource.timeSamples >= 1060860 && enemySpawn[20] == false){   //aprox. 18.5 segundos/815850
-           enemies[20] = Instantiate(enemyObject,new Vector3(movingDolly.transform.position.x+enemyOffsetX, enemyY, enemyZ), transform.rotation);
+           enemies[20] = SpawnEnemy();
            enemySpawn[20] = true;
         }
          if(audioSource.timeSamples >= 1082910 && enemySpawn[21] == false){   //aprox. 19 segundos/837900
-           enemies[21] = Instantiate(enemyObject,new Vector3(movingDolly.transform.position.x+enemyOffsetX, enemyY, enemyZ), transform.rotation);
+           enemies[21] = SpawnEnemy();
            enemySpawn[21] = true;
         }
          if(audioSource.timeSamples >= 1106189 && enemySpawn[22] == false){   //aprox. 14 segundos/617400 
-           enemies[22] = Instantiate(enemyObject,new Vector3(movingDolly.transform.position.x+enemyOffsetX, enemyY, enemyZ), transform.rotation);
+           enemies[22] = SpawnEnemy();
            enemySpawn[22] = true;
         }
         if(audioSource.timeSamples >= 1127010 && enemySpawn[23] == false){   //aprox. 14.5 segundos/651450 
-           enemies[23] = Instantiate(enemyObject,new Vector3(movingDolly.transform.position.x+enemyOffsetX, enemyY, enemyZ), transform.rotation);
+           enemies[23] = SpawnEnemy();
            enemySpawn[23] = true;
         }
         if(audioSource.timeSamples >= 1149060 && enemySpawn[24] == false){   //aprox. 15.0 segundos/661500 
-           enemies[24] = Instantiate(enemyObject,new Vector3(movingDolly.transform.position.x+enemyOffsetX, enemyY, enemyZ), transform.rotation);
+           enemies[24] = SpawnEnemy();
            enemySpawn[24] = true;
         }
         if(audioSource.timeSamples >= 1171110 && enemySpawn[25] == false){   //aprox. 15.5 segundos/683550 
-           enemies[25] = Instantiate(enemyObject,new Vector3(movingDolly.transform.position.x+enemyOffsetX, enemyY, enemyZ), transform.rotation);
+           enemies[25] = SpawnEnemy();
            enemySpawn[25] = true;
         }
         if(audioSource.timeSamples >= 1193160 && enemySpawn[26] == false){   //aprox. 16 segundos/705600
-           enemies[26] = Instantiate(enemyObject,new Vector3(movingDolly.transform.position.x+enemyOffsetX, enemyY, enemyZ), transform.rotation);
+           enemies[26] = SpawnEnemy();
            enemySpawn[26] = true;
         }
         if(audioSource.timeSamples >= 1215210 && enemySpawn[27] == false){   //aprox. 16.5 segundos/727650
-           enemies[27] = Instantiate(enemyObject,new Vector3(movingDolly.transform.position.x+enemyOffsetX, enemyY, enemyZ), transform.rotation);
+           enemies[27] = SpawnEnemy();
            enemySpawn[27] = true;
         }
         if(audioSource.timeSamples >= 1237260 && enemySpawn[28] == false){   //aprox. 17 segundos/749700
-           enemies[28] = Instantiate(enemyObject,new Vector3(movingDolly.transform.position.x+enemyOffsetX, enemyY, enemyZ), transform.rotation);
+           enemies[28] = SpawnEnemy();
            enemySpawn[28] = true;
         }
         if(audioSource.timeSamples >= 1259310 && enemySpawn[29] == false){   //aprox. 17.5 segundos/771750
-           enemies[29] = Instantiate(enemyObject,new Vector3(movingDolly.transform.position.x+enemyOffsetX, enemyY, enemyZ), transform.rotation);
+           enemies[29] = SpawnEnemy();
            enemySpawn[29] = true;
         }
         if(audioSource.timeSamples >= 1281360 && enemySpawn[30] == false){   //aprox. 18 segundos/793800
-           enemies[30] = Instantiate(enemyObject,new Vector3(movingDolly.transform.position.x+enemyOffsetX, enemyY, enemyZ), transform.rotation);
+           enemies[30] = SpawnEnemy();
            enemySpawn[30] = true;
         }
         if(audioSource.timeSamples >= 1302180 && enemySpawn[31] == false){   //aprox. 18.5 segundos/815850
-           enemies[31] = Instantiate(enemyObject,new Vector3(movingDolly.transform.position.x+enemyOffsetX, enemyY, enemyZ), transform.rotation);
+           enemies[31] = SpawnEnemy();
            enemySpawn[31] = true;
         }
          if(audioSource.timeSamples >= 1324230 && enemySpawn[32] == false){   //aprox. 19 segundos/837900
-           enemies[32] = Instantiate(enemyObject,new Vector3(movingDolly.transform.position.x+enemyOffsetX, enemyY, enemyZ), transform.rotation);
+           enemies[32] = SpawnEnemy();
            enemySpawn[32] = true;
         }
          if(audioSource.timeSamples >= 1347510 && enemySpawn[33] == false){   //aprox. 14 segundos/617400 
-           enemies[33] = Instantiate(enemyObject,new Vector3(movingDolly.transform.position.x+enemyOffsetX, enemyY, enemyZ), transform.rotation);
+           enemies[33] = SpawnEnemy();
            enemySpawn[33] = true;
         }
         if(audioSource.timeSamples >=  1369560 && enemySpawn[34] == false){   //aprox. 14.5 segundos/651450 
-           enemies[34] = Instantiate(enemyObject,new Vector3(movingDolly.transform.position.x+enemyOffsetX, enemyY, enemyZ), transform.rotation);
+           enemies[34] = SpawnEnemy();
            enemySpawn[34] = true;
         }
         if(audioSource.timeSamples >=  1390380 && enemySpawn[35] == false){   //aprox. 15.0 segundos/661500 
-           enemies[35] = Instantiate(enemyObject,new Vector3(movingDolly.transform.position.x+enemyOffsetX, enemyY, enemyZ), transform.rotation);
+           enemies[35] = SpawnEnemy();
            enemySpawn[35] = true;
         }
         if(audioSource.timeSamples >= 1413660  && enemySpawn[36] == false){   //aprox. 15.5 segundos/683550 
-           enemies[36] = Instantiate(enemyObject,new Vector3(movingDolly.transform.position.x+enemyOffsetX, enemyY, enemyZ), transform.rotation);
+           enemies[36] = SpawnEnemy();
            enemySpawn[36] = true;
         }
         if(audioSource.timeSamples >= 1436939  && enemySpawn[37] == false){   //aprox. 16 segundos/705600
-           enemies[37] = Instantiate(enemyObject,new Vector3(movingDolly.transform.position.x+enemyOffsetX, enemyY, enemyZ), transform.rotation);
+           enemies[37] = SpawnEnemy();
            enemySpawn[37] = true;
         }
         if(audioSource.timeSamples >= 1436939  && enemySpawn[38] == false){   //aprox. 16.5 segundos/727650
-           enemies[38] = Instantiate(enemyObject,new Vector3(movingDolly.transform.position.x+enemyOffsetX, enemyY, enemyZ), transform.rotation);
+           enemies[38] = SpawnEnemy();
            enemySpawn[38] = true;
         }
         if(audioSource.timeSamples >= 1478580  && enemySpawn[39] == false){   //aprox. 17 segundos/749700
-           enemies[39] = Instantiate(enemyObject,new Vector3(movingDolly.transform.position.x+enemyOffsetX, enemyY, enemyZ), transform.rotation);
+           enemies[39] = SpawnEnemy();
            enemySpawn[39] = true;
         }
         if(audioSource.timeSamples >=  1501860  && enemySpawn[40] == false){   //aprox. 17.5 segundos/771750
-           enemies[40] = Instantiate(enemyObject,new Vector3(movingDolly.transform.position.x+enemyOffsetX, enemyY, enemyZ), transform.rotation);
+           enemies[40] = SpawnEnemy();
            enemySpawn[40] = true;
         }
         if(audioSource.timeSamples >=  1522680  && enemySpawn[41] == false){   //aprox. 18 segundos/793800
-           enemies[41] = Instantiate(enemyObject,new Vector3(movingDolly.transform.position.x+enemyOffsetX, enemyY, enemyZ), transform.rotation);
+           enemies[41] = SpawnEnemy();
            enemySpawn[41] = true;
         }
         if(audioSource.timeSamples >= 1545960 && enemySpawn[42] == false){   //aprox. 18.5 segundos/815850
-           enemies[42] = Instantiate(enemyObject,new Vector3(movingDolly.transform.position.x+enemyOffsetX, enemyY, enemyZ), transform.rotation);
+           enemies[42] = SpawnEnemy();
            enemySpawn[42] = true;
         }
          if(audioSource.timeSamples >= 1568010 && enemySpawn[43] == false){   //aprox. 19 segundos/837900
-           enemies[43] = Instantiate(enemyObject,new Vector3(movingDolly.transform.position.x+enemyOffsetX, enemyY, enemyZ), transform.rotation);
+           enemies[43] = SpawnEnemy();
            enemySpawn[43] = true;
         }
          if(audioSource.timeSamples >= 1587600 && enemySpawn[44] == false){   //aprox. 14 segundos/617400 
-           enemies[44] = Instantiate(enemyObject,new Vector3(movingDolly.transform.position.x+enemyOffsetX, enemyY, enemyZ), transform.rotation);
+           enemies[44] = SpawnEnemy();
            enemySpawn[44] = true;
         }
         if(audioSource.timeSamples >= 1610880 && enemySpawn[45] == false){   //aprox. 14.5 segundos/651450 
-           enemies[45] = Instantiate(enemyObject,new Vector3(movingDolly.transform.position.x+enemyOffsetX, enemyY, enemyZ), transform.rotation);
+           enemies[45] = SpawnEnemy();
            enemySpawn[45] = true;
         }
         if(audioSource.timeSamples >= 1632930 && enemySpawn[46] == false){   //aprox. 15.0 segundos/661500 
-           enemies[46] = Instantiate(enemyObject,new Vector3(movingDolly.transform.position.x+enemyOffsetX, enemyY, enemyZ), transform.rotation);
+           enemies[46] = SpawnEnemy();
            enemySpawn[46] = true;
         }
         if(audioSource.timeSamples >= 1653750 && enemySpawn[47] == false){   //aprox. 15.5 segundos/683550 
-           enemies[47] = Instantiate(enemyObject,new Vector3(movingDolly.transform.position.x+enemyOffsetX, enemyY, enemyZ), transform.rotation);
+           enemies[47] = SpawnEnemy();
            enemySpawn[47] = true;
         }
         if(audioSource.timeSamples >= 1678260 && enemySpawn[48] == false){   //aprox. 16 segundos/705600
-           enemies[48] = Instantiate(enemyObject,new Vector3(movingDolly.transform.position.x+enemyOffsetX, enemyY, enemyZ), transform.rotation);
+           enemies[48] = SpawnEnemy();
            enemySpawn[48] = true;
         }
         if(audioSource.timeSamples >= 1700310 && enemySpawn[49] == false){   //aprox. 16.5 segundos/727650
-           enemies[49] = Instantiate(enemyObject,new Vector3(movingDolly.transform.position.x+enemyOffsetX, enemyY, enemyZ), transform.rotation);
+           enemies[49] = SpawnEnemy();
            enemySpawn[49] = true;
         }
         if(audioSource.timeSamples >= 1721110 && enemySpawn[50] == false){   //aprox. 17 segundos/749700
-           enemies[50] = Instantiate(enemyObject,new Vector3(movingDolly.transform.position.x+enemyOffsetX, enemyY, enemyZ), transform.rotation);
+           enemies[50] = SpawnEnemy();
            enemySpawn[50] = true;
         }
         if(audioSource.timeSamples >= 1744410 && enemySpawn[51] == false){   //aprox. 17.5 segundos/771750
-           enemies[51] = Instantiate(enemyObject,new Vector3(movingDolly.transform.position.x+enemyOffsetX, enemyY, enemyZ), transform.rotation);
+           enemies[51] = SpawnEnemy();
            enemySpawn[51] = true;
         }
         if(audioSource.timeSamples >= 1766460 && enemySpawn[52] == false){   //PRATOS!!!!!!
-           enemies[52] = Instantiate(enemyObject,new Vector3(movingDolly.transform.position.x+enemyOffsetX, enemyY, enemyZ), transform.rotation);
+           enemies[52] = SpawnEnemy();
            enemySpawn[52] = true;
         }
         if(audioSource.timeSamples >= 1786050 && enemySpawn[53] == false){   //aprox. 14 segundos/617400 
-           enemies[53] = Instantiate(enemyObject,new Vector3(movingDolly.transform.position.x+enemyOffsetX, enemyY, enemyZ), transform.rotation);
+           enemies[53] = SpawnEnemy();
            enemySpawn[53] = true;
         }
         if(audioSource.timeSamples >= 1810560 && enemySpawn[54] == false){   //aprox. 14.5 segundos/651450 
-           enemies[54] = Instantiate(enemyObject,new Vector3(movingDolly.transform.position.x+enemyOffsetX, enemyY, enemyZ), transform.rotation);
+           enemies[54] = SpawnEnemy();
            enemySpawn[54] = true;
         }
         if(audioSource.timeSamples >= 1830150 && enemySpawn[55] == false){   //aprox. 15.0 segundos/661500 
-           enemies[55] = Instantiate(enemyObject,new Vector3(movingDolly.transform.position.x+enemyOffsetX, enemyY, enemyZ), transform.rotation);
+           enemies[55] = SpawnEnemy();
            enemySpawn[55] = true;
         }
         if(audioSource.timeSamples >= 1853430 && enemySpawn[56] == false){   //aprox. 15.5 segundos/683550 
-           enemies[56] = Instantiate(enemyObject,new Vector3(movingDolly.transform.position.x+enemyOffsetX, enemyY, enemyZ), transform.rotation);
+           enemies[56] = SpawnEnemy();
            enemySpawn[56] = true;
         }
         if(audioSource.timeSamples >= 1876710 && enemySpawn[57] == false){   //aprox. 16 segundos/705600
-           enemies[57] = Instantiate(enemyObject,new Vector3(movingDolly.transform.position.x+enemyOffsetX, enemyY, enemyZ), transform.rotation);
+           enemies[57] = SpawnEnemy();
            enemySpawn[57] = true;
         }
         if(audioSource.timeSamples >= 1898760 && enemySpawn[58] == false){   //aprox. 16.5 segundos/727650
-           enemies[58] = Instantiate(enemyObject,new Vector3(movingDolly.transform.position.x+enemyOffsetX, enemyY, enemyZ), transform.rotation);
+           enemies[58] = SpawnEnemy();
            enemySpawn[58] = true;
         }
         if(audioSource.timeSamples >= 1918350 && enemySpawn[59] == false){   //aprox. 17 segundos/749700
-           enemies[59] = Instantiate(enemyObject,new Vector3(movingDolly.transform.position.x+enemyOffsetX, enemyY, enemyZ), transform.rotation);
+           enemies[59] = SpawnEnemy();
            enemySpawn[59] = true;
         }
         if(audioSource.timeSamples >= 1941630 && enemySpawn[60] == false){   //aprox. 18 segundos/793800
-           enemies[60] = Instantiate(enemyObject,new Vector3(movingDolly.transform.position.x+enemyOffsetX, enemyY, enemyZ), transform.rotation);
+           enemies[60] = SpawnEnemy();
            enemySpawn[60] = true;
         }
         if(audioSource.timeSamples >= 1962450 && enemySpawn[61] == false){   //aprox. 18.5 segundos/815850
-           enemies[61] = Instantiate(enemyObject,new Vector3(movingDolly.transform.position.x+enemyOffsetX, enemyY, enemyZ), transform.rotation);
+           enemies[61] = SpawnEnemy();
            enemySpawn[61] = true;
         }
          if(audioSource.timeSamples >= 1986960 && enemySpawn[62] == false){   //aprox. 19 segundos/837900
-           enemies[62] = Instantiate(enemyObject,new Vector3(movingDolly.transform.position.x+enemyOffsetX, enemyY, enemyZ), transform.rotation);
+           enemies[62] = SpawnEnemy();
            enemySpawn[62] = true;
         }
         if(audioSource.timeSamples >= 2006550 && enemySpawn[63] == false){   //aprox. 17.5 segundos/771750
-           enemies[63] = Instantiate(enemyObject,new Vector3(movingDolly.transform.position.x+enemyOffsetX, enemyY, enemyZ), transform.rotation);
+           enemies[63] = SpawnEnemy();
            enemySpawn[63] = true;
         }
       
@@ -602,6 +602,38 @@ public class EnemySpawner : MonoBehaviour
         }*/
     }
 
+
+    GameObject SpawnEnemy()
+    {
+
+        
+        var random_or_follow_player = Random.Range(0f, 1f);
+        float enemyY;
+
+        if (random_or_follow_player > 0.5)
+        {
+            var random_or_probable = Random.Range(0f, 1f);
+            if (random_or_probable > 0.60)
+            {
+                var trails = TrailsManager.instance.ProbableTrails;
+                enemyY = trails[Random.Range(0, trails.Length)].trailObject.transform.position.y;
+            }
+            else
+            {
+                var trails = TrailsManager.instance.EmptyTrails;
+                enemyY = trails[Random.Range(0, trails.Length)].trailObject.transform.position.y;
+            }
+        }
+        else
+        {
+            enemyY = TrailsManager.instance.OccupiedTrail.trailObject.transform.position.y;
+        }
+        
+
+        //var enemyY = TrailsManager.instance.OccupiedTrail.trailObject.transform.position.y;
+
+        return Instantiate(enemyObject, new Vector3(movingDolly.transform.position.x + enemyOffsetX, enemyY, enemyZ), transform.rotation);
+    }
 
 }
 
