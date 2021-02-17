@@ -6,13 +6,12 @@ using UnityEngine;
 public class MovingManager : MonoBehaviour
 {
     #region "CUSTOMIZABLE_PROPERTIES"
-    [SerializeField]
-    List<GameObject> trails = new List<GameObject>();
     #endregion
 
     #region "PRIVATE_PROPERTIES"
-    private int currentTrailIndex = 1;
+    private int currentTrailIndex = 2;
     private float currentVelocityY = 0;
+    private Trail currentTrail = null;
     #endregion
 
 
@@ -46,9 +45,10 @@ public class MovingManager : MonoBehaviour
 
     private void MoveToNextTrail(float velocityY)
     {
-        if (currentTrailIndex < trails.Count - 1)
+        if (currentTrailIndex < TrailsManager.instance.trailsLength - 1)
         {
             currentTrailIndex++;
+            currentTrail = TrailsManager.instance.OccupyTrail(currentTrailIndex);
             currentVelocityY = velocityY;
         }
     }
@@ -58,6 +58,7 @@ public class MovingManager : MonoBehaviour
         if (currentTrailIndex > 0)
         {
             currentTrailIndex--;
+            currentTrail = TrailsManager.instance.OccupyTrail(currentTrailIndex);
             currentVelocityY = velocityY;
         }
     }
@@ -68,14 +69,15 @@ public class MovingManager : MonoBehaviour
     #region "UNITY_METHODS"
     private void Awake()
     {
-        this.transform.position = new Vector3(this.transform.position.x, trails[currentTrailIndex].transform.position.y, this.transform.position.z);
+        currentTrail = TrailsManager.instance.OccupyTrail(currentTrailIndex);
+        this.transform.position = new Vector3(this.transform.position.x, currentTrail.trailObject.transform.position.y, this.transform.position.z);
     }
 
     private void FixedUpdate()
     {
-        if (Vector3.Distance(this.transform.position, new Vector3(this.transform.position.x, trails[currentTrailIndex].transform.position.y, this.transform.position.z)) > 0.01f)
+        if (Vector3.Distance(this.transform.position, new Vector3(this.transform.position.x, currentTrail.trailObject.transform.position.y, this.transform.position.z)) > 0.01f)
         {
-            this.transform.position = new Vector3(this.transform.position.x, Mathf.Lerp(this.transform.position.y, trails[currentTrailIndex].transform.position.y, Time.deltaTime * currentVelocityY), 2);
+            this.transform.position = new Vector3(this.transform.position.x, Mathf.Lerp(this.transform.position.y, currentTrail.trailObject.transform.position.y, Time.deltaTime * currentVelocityY), 2);
         }
     }
     #endregion
