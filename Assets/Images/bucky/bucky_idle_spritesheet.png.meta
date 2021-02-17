@@ -1,0 +1,1892 @@
+fileFormatVersion: 2
+guid: 2b0aa6b5298da864a86e38922aada7d7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3064248842755217206
+    second: bucky_idle_spritesheet_0
+  - first:
+      213: 716136283019598509
+    second: bucky_idle_spritesheet_1
+  - first:
+      213: 5784825155775082220
+    second: bucky_idle_spritesheet_2
+  - first:
+      213: -6516186837668018503
+    second: bucky_idle_spritesheet_3
+  - first:
+      213: -2450150970644677228
+    second: bucky_idle_spritesheet_4
+  - first:
+      213: -640801439230047813
+    second: bucky_idle_spritesheet_5
+  - first:
+      213: -1625975805750428096
+    second: bucky_idle_spritesheet_6
+  - first:
+      213: 6926030982451863883
+    second: bucky_idle_spritesheet_7
+  - first:
+      213: -1263771973948844187
+    second: bucky_idle_spritesheet_8
+  - first:
+      213: 6828799786303521099
+    second: bucky_idle_spritesheet_9
+  - first:
+      213: 1919281118176988747
+    second: bucky_idle_spritesheet_10
+  - first:
+      213: 9084471455315525443
+    second: bucky_idle_spritesheet_11
+  - first:
+      213: -7427182453483725579
+    second: bucky_idle_spritesheet_12
+  - first:
+      213: 2715220564031182436
+    second: bucky_idle_spritesheet_13
+  - first:
+      213: -9200002811664367120
+    second: bucky_idle_spritesheet_14
+  - first:
+      213: 5058422156298099900
+    second: bucky_idle_spritesheet_15
+  - first:
+      213: 5718105729939337358
+    second: bucky_idle_spritesheet_16
+  - first:
+      213: -3194434475017947394
+    second: bucky_idle_spritesheet_17
+  - first:
+      213: 6659518004714354361
+    second: bucky_idle_spritesheet_18
+  - first:
+      213: -8713388629877396967
+    second: bucky_idle_spritesheet_19
+  - first:
+      213: 3763784659707717871
+    second: bucky_idle_spritesheet_20
+  - first:
+      213: 5074731377733793509
+    second: bucky_idle_spritesheet_21
+  - first:
+      213: 7119971408124661205
+    second: bucky_idle_spritesheet_22
+  - first:
+      213: 6486254601175206490
+    second: bucky_idle_spritesheet_23
+  - first:
+      213: 5223126001172852104
+    second: bucky_idle_spritesheet_24
+  - first:
+      213: -233329534366894807
+    second: bucky_idle_spritesheet_25
+  - first:
+      213: -4846128760883970009
+    second: bucky_idle_spritesheet_26
+  - first:
+      213: 383481473438133252
+    second: bucky_idle_spritesheet_27
+  - first:
+      213: 4999580070632624862
+    second: bucky_idle_spritesheet_28
+  - first:
+      213: -1273008890942354959
+    second: bucky_idle_spritesheet_29
+  - first:
+      213: -4222946822082347519
+    second: bucky_idle_spritesheet_30
+  - first:
+      213: 8759903478422303680
+    second: bucky_idle_spritesheet_31
+  - first:
+      213: -2899930830869694174
+    second: bucky_idle_spritesheet_32
+  - first:
+      213: 2340839969210590528
+    second: bucky_idle_spritesheet_33
+  - first:
+      213: 2260232926200040855
+    second: bucky_idle_spritesheet_34
+  - first:
+      213: 5090283599291977668
+    second: bucky_idle_spritesheet_35
+  - first:
+      213: 1761428682557878947
+    second: bucky_idle_spritesheet_36
+  - first:
+      213: -3314533476447254592
+    second: bucky_idle_spritesheet_37
+  - first:
+      213: -4315642107758266926
+    second: bucky_idle_spritesheet_38
+  - first:
+      213: 4190275310740037945
+    second: bucky_idle_spritesheet_39
+  - first:
+      213: 4094675091744177117
+    second: bucky_idle_spritesheet_40
+  - first:
+      213: 14477964387901693
+    second: bucky_idle_spritesheet_41
+  - first:
+      213: 854763491448993884
+    second: bucky_idle_spritesheet_42
+  - first:
+      213: -8515277008869121101
+    second: bucky_idle_spritesheet_43
+  - first:
+      213: 1446452084616260438
+    second: bucky_idle_spritesheet_44
+  - first:
+      213: -7990547582051957379
+    second: bucky_idle_spritesheet_45
+  - first:
+      213: 4723758777292370171
+    second: bucky_idle_spritesheet_46
+  - first:
+      213: 2423326995729110814
+    second: bucky_idle_spritesheet_47
+  - first:
+      213: 7004045406853520067
+    second: bucky_idle_spritesheet_48
+  - first:
+      213: -4752449694621667677
+    second: bucky_idle_spritesheet_49
+  - first:
+      213: -2493478174889785799
+    second: bucky_idle_spritesheet_50
+  - first:
+      213: 167411109719413849
+    second: bucky_idle_spritesheet_51
+  - first:
+      213: 8822691246462135380
+    second: bucky_idle_spritesheet_52
+  - first:
+      213: 237580190655749759
+    second: bucky_idle_spritesheet_53
+  - first:
+      213: -4347868950076979073
+    second: bucky_idle_spritesheet_54
+  - first:
+      213: -6340942467724162253
+    second: bucky_idle_spritesheet_55
+  - first:
+      213: 1576095678575039988
+    second: bucky_idle_spritesheet_56
+  - first:
+      213: 3047608260800867499
+    second: bucky_idle_spritesheet_57
+  - first:
+      213: -1376986517331896776
+    second: bucky_idle_spritesheet_58
+  - first:
+      213: -1531276527192934037
+    second: bucky_idle_spritesheet_59
+  - first:
+      213: 7726160678360280504
+    second: bucky_idle_spritesheet_60
+  - first:
+      213: 8533241071321846783
+    second: bucky_idle_spritesheet_61
+  - first:
+      213: 7638162024463324639
+    second: bucky_idle_spritesheet_62
+  - first:
+      213: 6816700181893820151
+    second: bucky_idle_spritesheet_63
+  - first:
+      213: 772217364582325645
+    second: bucky_idle_spritesheet_64
+  - first:
+      213: 6018722674477614221
+    second: bucky_idle_spritesheet_65
+  - first:
+      213: -9055077197337006509
+    second: bucky_idle_spritesheet_66
+  - first:
+      213: -7955650122324898444
+    second: bucky_idle_spritesheet_67
+  - first:
+      213: 8643432886874635098
+    second: bucky_idle_spritesheet_68
+  - first:
+      213: 1526430085166937356
+    second: bucky_idle_spritesheet_69
+  - first:
+      213: 4858082663175331387
+    second: bucky_idle_spritesheet_70
+  - first:
+      213: 5997918729061723223
+    second: bucky_idle_spritesheet_71
+  - first:
+      213: -8507413970207252670
+    second: bucky_idle_spritesheet_72
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: 2
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bucky_idle_spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2700
+        width: 400
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63793df5616668a20800000000000000
+      internalID: 3064248842755217206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bucky_idle_spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 2700
+        width: 400
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daad628b72a30f900800000000000000
+      internalID: 716136283019598509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bucky_idle_spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 2700
+        width: 400
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceea7b174d3d74050800000000000000
+      internalID: 5784825155775082220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bucky_idle_spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 2700
+        width: 400
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b6c8ba689ad195a0800000000000000
+      internalID: -6516186837668018503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bucky_idle_spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 2700
+        width: 400
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49d35a47ca05ffdd0800000000000000
+      internalID: -2450150970644677228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bucky_idle_spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 2700
+        width: 400
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb942237c7a6b17f0800000000000000
+      internalID: -640801439230047813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bucky_idle_spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2475
+        width: 400
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04ebdd49e9f5f69e0800000000000000
+      internalID: -1625975805750428096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bucky_idle_spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 2475
+        width: 400
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b41a46c9b743e1060800000000000000
+      internalID: 6926030982451863883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bucky_idle_spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 2475
+        width: 400
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5675fafd51e267ee0800000000000000
+      internalID: -1263771973948844187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bucky_idle_spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 2475
+        width: 400
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4182e0a935c4ce50800000000000000
+      internalID: 6828799786303521099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bucky_idle_spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 2475
+        width: 400
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4ecd091208a2aa10800000000000000
+      internalID: 1919281118176988747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bucky_idle_spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 2475
+        width: 400
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34ff14238a6821e70800000000000000
+      internalID: 9084471455315525443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bucky_idle_spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2250
+        width: 400
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fc9612d8e85de890800000000000000
+      internalID: -7427182453483725579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bucky_idle_spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 2250
+        width: 400
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4661ae597b66ea520800000000000000
+      internalID: 2715220564031182436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bucky_idle_spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 2250
+        width: 400
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f1862ebf26035080800000000000000
+      internalID: -9200002811664367120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bucky_idle_spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 2250
+        width: 400
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbc1d168620233640800000000000000
+      internalID: 5058422156298099900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bucky_idle_spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 2250
+        width: 400
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e80f8259ddaca5f40800000000000000
+      internalID: 5718105729939337358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bucky_idle_spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 2250
+        width: 400
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef63b4215c61ba3d0800000000000000
+      internalID: -3194434475017947394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bucky_idle_spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2025
+        width: 400
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b63156775c5b6c50800000000000000
+      internalID: 6659518004714354361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bucky_idle_spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 2025
+        width: 400
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91aea36e433d31780800000000000000
+      internalID: -8713388629877396967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bucky_idle_spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 2025
+        width: 400
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe861f4e436ab3430800000000000000
+      internalID: 3763784659707717871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bucky_idle_spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 2025
+        width: 400
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e6f95c0d411d6640800000000000000
+      internalID: 5074731377733793509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bucky_idle_spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 2025
+        width: 400
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dd4530c5483fc260800000000000000
+      internalID: 7119971408124661205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bucky_idle_spritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 2025
+        width: 400
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5a8ac1b13ec30a50800000000000000
+      internalID: 6486254601175206490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bucky_idle_spritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1800
+        width: 400
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88da30dbc654c7840800000000000000
+      internalID: 5223126001172852104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bucky_idle_spritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1800
+        width: 400
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9253474560c03ccf0800000000000000
+      internalID: -233329534366894807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bucky_idle_spritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 1800
+        width: 400
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72005bf51971fbcb0800000000000000
+      internalID: -4846128760883970009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bucky_idle_spritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1800
+        width: 400
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40c293a4e56625500800000000000000
+      internalID: 383481473438133252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bucky_idle_spritesheet_28
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 1800
+        width: 400
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed21e28d593126540800000000000000
+      internalID: 4999580070632624862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bucky_idle_spritesheet_29
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 1800
+        width: 400
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f9877b882d555ee0800000000000000
+      internalID: -1273008890942354959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bucky_idle_spritesheet_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1575
+        width: 400
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10eba6c4d341565c0800000000000000
+      internalID: -4222946822082347519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bucky_idle_spritesheet_31
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1575
+        width: 400
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c3f11a3dcd619970800000000000000
+      internalID: 8759903478422303680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bucky_idle_spritesheet_32
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 1575
+        width: 400
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 229fec8164061c7d0800000000000000
+      internalID: -2899930830869694174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bucky_idle_spritesheet_33
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1575
+        width: 400
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04565d8bc855c7020800000000000000
+      internalID: 2340839969210590528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bucky_idle_spritesheet_34
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 1575
+        width: 400
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79d8bc30fd5fd5f10800000000000000
+      internalID: 2260232926200040855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bucky_idle_spritesheet_35
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 1575
+        width: 400
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cf8bcdc6f154a640800000000000000
+      internalID: 5090283599291977668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bucky_idle_spritesheet_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1350
+        width: 400
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a2fb09ed0ad17810800000000000000
+      internalID: 1761428682557878947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bucky_idle_spritesheet_37
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1350
+        width: 400
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c788344d596002d0800000000000000
+      internalID: -3314533476447254592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bucky_idle_spritesheet_38
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 1350
+        width: 400
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d5b9554e52cb14c0800000000000000
+      internalID: -4315642107758266926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bucky_idle_spritesheet_39
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1350
+        width: 400
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 931efbfa139d62a30800000000000000
+      internalID: 4190275310740037945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bucky_idle_spritesheet_40
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 1350
+        width: 400
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddb3d0a2d4533d830800000000000000
+      internalID: 4094675091744177117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bucky_idle_spritesheet_41
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 1350
+        width: 400
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df06964c1af633000800000000000000
+      internalID: 14477964387901693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bucky_idle_spritesheet_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1125
+        width: 400
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c583ac2eddabcdb00800000000000000
+      internalID: 854763491448993884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bucky_idle_spritesheet_43
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1125
+        width: 400
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b32e422da8a3d980800000000000000
+      internalID: -8515277008869121101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bucky_idle_spritesheet_44
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 1125
+        width: 400
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65bec20e184d21410800000000000000
+      internalID: 1446452084616260438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bucky_idle_spritesheet_45
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1125
+        width: 400
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d75cfe25f4fdb1190800000000000000
+      internalID: -7990547582051957379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bucky_idle_spritesheet_46
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 1125
+        width: 400
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf0352594992e8140800000000000000
+      internalID: 4723758777292370171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bucky_idle_spritesheet_47
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 1125
+        width: 400
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e175c03301361a120800000000000000
+      internalID: 2423326995729110814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bucky_idle_spritesheet_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 900
+        width: 400
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cad532403e533160800000000000000
+      internalID: 7004045406853520067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bucky_idle_spritesheet_49
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 900
+        width: 400
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ae692bae28eb0eb0800000000000000
+      internalID: -4752449694621667677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bucky_idle_spritesheet_50
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 900
+        width: 400
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 936418a9fc2656dd0800000000000000
+      internalID: -2493478174889785799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bucky_idle_spritesheet_51
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 900
+        width: 400
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 954974e6483c25200800000000000000
+      internalID: 167411109719413849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bucky_idle_spritesheet_52
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 900
+        width: 400
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45ce25ca1fe707a70800000000000000
+      internalID: 8822691246462135380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bucky_idle_spritesheet_53
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 900
+        width: 400
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7e94b5bced0c4300800000000000000
+      internalID: 237580190655749759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bucky_idle_spritesheet_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 675
+        width: 400
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7806b4d93449a3c0800000000000000
+      internalID: -4347868950076979073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bucky_idle_spritesheet_55
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 675
+        width: 400
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33bcc1edb627008a0800000000000000
+      internalID: -6340942467724162253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bucky_idle_spritesheet_56
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 675
+        width: 400
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f55e7d4baa6fd510800000000000000
+      internalID: 1576095678575039988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bucky_idle_spritesheet_57
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 675
+        width: 400
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bace497f0974b4a20800000000000000
+      internalID: 3047608260800867499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bucky_idle_spritesheet_58
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 675
+        width: 400
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8361eedde06f3ece0800000000000000
+      internalID: -1376986517331896776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bucky_idle_spritesheet_59
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 675
+        width: 400
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6975cf8c10dfbae0800000000000000
+      internalID: -1531276527192934037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bucky_idle_spritesheet_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 450
+        width: 400
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bd6147b336d83b60800000000000000
+      internalID: 7726160678360280504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bucky_idle_spritesheet_61
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 450
+        width: 400
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff399e61b892c6670800000000000000
+      internalID: 8533241071321846783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bucky_idle_spritesheet_62
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 450
+        width: 400
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd5d30d74e3300a60800000000000000
+      internalID: 7638162024463324639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bucky_idle_spritesheet_63
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 450
+        width: 400
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fe2f12f2b8c99e50800000000000000
+      internalID: 6816700181893820151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bucky_idle_spritesheet_64
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 450
+        width: 400
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8d51590a9777ba00800000000000000
+      internalID: 772217364582325645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bucky_idle_spritesheet_65
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 450
+        width: 400
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d84c3d5426cc68350800000000000000
+      internalID: 6018722674477614221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bucky_idle_spritesheet_66
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 225
+        width: 400
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35eecfec347e55280800000000000000
+      internalID: -9055077197337006509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bucky_idle_spritesheet_67
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 225
+        width: 400
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47d08855d5ad79190800000000000000
+      internalID: -7955650122324898444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bucky_idle_spritesheet_68
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 225
+        width: 400
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5b771e6a64a3f770800000000000000
+      internalID: 8643432886874635098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bucky_idle_spritesheet_69
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 225
+        width: 400
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0538d83318fe2510800000000000000
+      internalID: 1526430085166937356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bucky_idle_spritesheet_70
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 225
+        width: 400
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3e9c0461706b6340800000000000000
+      internalID: 4858082663175331387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bucky_idle_spritesheet_71
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 225
+        width: 400
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75ce2654e43ec3350800000000000000
+      internalID: 5997918729061723223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bucky_idle_spritesheet_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 400
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24fd99c71189fe980800000000000000
+      internalID: -8507413970207252670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 0e697354b641cbf47a9e0aca4dfb1606
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
