@@ -18,6 +18,22 @@ public class TrailsManager : MonoBehaviour
         }
     }
 
+    public Trail[] EmptyTrails
+    {
+        get
+        {
+            return trailsOfGame.FindAll(e => e.state == TrailState.EMPTY).ToArray();
+        }
+    }
+
+    public Trail[] ProbableTrails
+    {
+        get
+        {
+            return trailsOfGame.FindAll(e => e.state == TrailState.PROBABLE).ToArray();
+        }
+    }
+
     public int trailsLength {
         get
         {
