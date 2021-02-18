@@ -770,12 +770,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6a91fd955ecb3e408be2bee0f3077c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  trails:
-  - {fileID: 1006550054}
-  - {fileID: 911754200}
-  - {fileID: 1740468027}
-  - {fileID: 1886864217}
-  - {fileID: 1243846606}
 --- !u!212 &1661627843
 SpriteRenderer:
   m_ObjectHideFlags: 0

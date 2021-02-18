@@ -19,7 +19,7 @@ public class EnemySpawner : MonoBehaviour
     private float enemyZ, enemyX;
     private int enemyVelocity = -30;
 
-    private float enemyOffsetX = 16.5f;
+    private float enemyOffsetX = 13f;
     [SerializeField]
     private GameObject movingDolly;
     
@@ -309,6 +309,19 @@ public class EnemySpawner : MonoBehaviour
            enemies[63] = SpawnEnemy();
            enemySpawn[63] = true;
         }
+        
+        if(audioSource.timeSamples >= 2160900 && enemySpawn[64] == false){   //aprox. 51 segundos
+           enemies[64] = SpawnEnemy();
+           enemySpawn[64] = true;
+        }
+        if(audioSource.timeSamples >= 2373627 && enemySpawn[65] == false){   //aprox. 55.8 segundos
+           enemies[65] = SpawnEnemy();
+           enemySpawn[65] = true;
+        }
+        if(audioSource.timeSamples >= 2160900 && enemySpawn[66] == false){   //aprox. 51 segundos
+           enemies[66] = SpawnEnemy();
+           enemySpawn[66] = true;
+        }
       
 
 
@@ -385,73 +398,73 @@ public class EnemySpawner : MonoBehaviour
 
     */
      void moveTriggerEnemies(){
-        if(audioSource.timeSamples >= 709363 && enemySpawn[0] == true){ //aprox. 16.083 segundos/709283
+        if(audioSource.timeSamples >= 708704 && enemySpawn[0] == true){ //aprox. 16.083 segundos/709283
           enemyMove[0] = true;
         }
-         if(audioSource.timeSamples >= 727238 && enemySpawn[1] == true){ //aprox. 16.5 segundos/727650
+         if(audioSource.timeSamples >= 731995 && enemySpawn[1] == true){ //aprox. 16.5 segundos/727650
           enemyMove[1] = true;
         }
-          if(audioSource.timeSamples >= 752639 && enemySpawn[2] == true){ //aprox. 17.055 segundos/752160
+          if(audioSource.timeSamples >= 754045 && enemySpawn[2] == true){ //aprox. 17.055 segundos/752160
           enemyMove[2] = true;
         }
-         if(audioSource.timeSamples >= 771455 && enemySpawn[3] == true){ //aprox. 17.5 segundos/771750
+         if(audioSource.timeSamples >= 775914 && enemySpawn[3] == true){ //aprox. 17.5 segundos/771750
           enemyMove[3] = true;
         }
-        if(audioSource.timeSamples >= 796857 && enemySpawn[4] == true){ //aprox. 18.055 segundos/796260
+        if(audioSource.timeSamples >= 798145 && enemySpawn[4] == true){ //aprox. 18.055 segundos/796260
           enemyMove[4] = true;
         }
-        if(audioSource.timeSamples >= 818495 && enemySpawn[5] == true){ //aprox. 18.555 segundos/818310
+        if(audioSource.timeSamples >= 820195 && enemySpawn[5] == true){ //aprox. 18.555 segundos/818310
           enemyMove[5] = true;
         }
-        if(audioSource.timeSamples >= 840134 && enemySpawn[6] == true){ //aprox. 19.055 segundos/840360
+        if(audioSource.timeSamples >= 842245 && enemySpawn[6] == true){ //aprox. 19.055 segundos/840360
           enemyMove[6] = true;
         }
-        if(audioSource.timeSamples >= 859891 && enemySpawn[7] == true){ //aprox. 19.5   segundos/859950
+        if(audioSource.timeSamples >= 864295 && enemySpawn[7] == true){ //aprox. 19.5   segundos/859950
           enemyMove[7] = true;
         }
-        if(audioSource.timeSamples >= 884351 && enemySpawn[8] == true){ //aprox. 20.057 segundos/884546
+        if(audioSource.timeSamples >= 885724 && enemySpawn[8] == true){ //aprox. 20.057 segundos/884546
           enemyMove[8] = true;
         }
-        if(audioSource.timeSamples >= 905990 && enemySpawn[9] == true){ //aprox. 20.527 segundos/905280
+        if(audioSource.timeSamples >= 908395 && enemySpawn[9] == true){ //aprox. 20.527 segundos/905280
           enemyMove[9] = true;
         }
-        if(audioSource.timeSamples >= 927628 && enemySpawn[10] == true){ //aprox. 21.027 segundos/927330
+        if(audioSource.timeSamples >= 929824 && enemySpawn[10] == true){ //aprox. 21.027 segundos/927330
           enemyMove[10] = true;
         }
-        if(audioSource.timeSamples >= 950610 && enemySpawn[11] == true){ //aprox. 16.083 segundos/709283
+        if(audioSource.timeSamples >= 951874 && enemySpawn[11] == true){ //aprox. 16.083 segundos/709283
           enemyMove[11] = true;
         }
-         if(audioSource.timeSamples >= 972660 && enemySpawn[12] == true){ //aprox. 16.5 segundos/727650
+         if(audioSource.timeSamples >= 973924 && enemySpawn[12] == true){ //aprox. 16.5 segundos/727650
           enemyMove[12] = true;
         }
-          if(audioSource.timeSamples >= 992250 && enemySpawn[13] == true){ //aprox. 17.055 segundos/752160
+          if(audioSource.timeSamples >= 995974 && enemySpawn[13] == true){ //aprox. 17.055 segundos/752160
           enemyMove[13] = true;
         }
-         if(audioSource.timeSamples >= 1016760 && enemySpawn[14] == true){ //aprox. 17.5 segundos/771750
+         if(audioSource.timeSamples >= 1018645 && enemySpawn[14] == true){ //aprox. 17.5 segundos/771750
           enemyMove[14] = true;
         }
-        if(audioSource.timeSamples >= 1036350 && enemySpawn[15] == true){ //aprox. 18.055 segundos/796260
+        if(audioSource.timeSamples >= 1040074 && enemySpawn[15] == true){ //aprox. 18.055 segundos/796260
           enemyMove[15] = true;
         }
-        if(audioSource.timeSamples >= 1060860 && enemySpawn[16] == true){ //aprox. 18.555 segundos/818310
+        if(audioSource.timeSamples >= 1062745 && enemySpawn[16] == true){ //aprox. 18.555 segundos/818310
           enemyMove[16] = true;
         }
-        if(audioSource.timeSamples >= 1082910 && enemySpawn[17] == true){ //aprox. 19.055 segundos/840360
+        if(audioSource.timeSamples >= 1084174 && enemySpawn[17] == true){ //aprox. 24.5
           enemyMove[17] = true;
         }
-        if(audioSource.timeSamples >= 1106189 && enemySpawn[18] == true){ //aprox. 19.5   segundos/859950
+        if(audioSource.timeSamples >= 1106845 && enemySpawn[18] == true){ //aprox. 25
           enemyMove[18] = true;
         }
-        if(audioSource.timeSamples >= 1127010 && enemySpawn[19] == true){ //aprox. 20.057 segundos/884546
+        if(audioSource.timeSamples >= 1128274 && enemySpawn[19] == true){ //aprox. 25.5
           enemyMove[19] = true;
         }
-        if(audioSource.timeSamples >= 1149060 && enemySpawn[20] == true){ //aprox. 20.527 segundos/905280
+        if(audioSource.timeSamples >= 1150945 && enemySpawn[20] == true){ //aprox. 26.098 CERTO
           enemyMove[20] = true;
         }
-        if(audioSource.timeSamples >= 1171110 && enemySpawn[21] == true){ //aprox. 21.027 segundos/927330
+        if(audioSource.timeSamples >= 1172374 && enemySpawn[21] == true){ //aprox. 26.5
           enemyMove[21] = true;
         }
-        if(audioSource.timeSamples >= 1193160 && enemySpawn[22] == true){ //aprox. 16.083 segundos/709283
+        if(audioSource.timeSamples >= 1195045 && enemySpawn[22] == true){ //aprox. 16.083 segundos/709283
           enemyMove[22] = true;
         }
          if(audioSource.timeSamples >= 1215210 && enemySpawn[23] == true){ //aprox. 16.5 segundos/727650
@@ -574,10 +587,218 @@ public class EnemySpawner : MonoBehaviour
         if(audioSource.timeSamples >= 2073930 && enemySpawn[62] == true){ //aprox. 19.5   segundos/859950
           enemyMove[62] = true;
         }
-        if(audioSource.timeSamples >= 2097210 && enemySpawn[63] == true){ //aprox. 20.057 segundos/884546
+        
+        if(audioSource.timeSamples >= 2097210 && enemySpawn[63] == true){ 
           enemyMove[63] = true;
         }
-       
+        //frequencia do baixo inicio
+        if(audioSource.timeSamples >= 2286993 && enemySpawn[64] == true){ //aprox. 51 segundos
+          enemyMove[64] = true;
+        }     
+        if(audioSource.timeSamples >= 2462772 && enemySpawn[65] == true){ //aprox. 51 segundos
+          enemyMove[65] = true;
+        }     
+        if(audioSource.timeSamples >= 2639793 && enemySpawn[66] == true){ //aprox. 59 segundos
+          enemyMove[66] = true;
+        }
+        //fim frequencia baixo
+         if(audioSource.timeSamples >= 2826124 && enemySpawn[67] == true){ //aprox. 1:04 segundos
+          enemyMove[67] = true;
+        }  
+         if(audioSource.timeSamples >= 2826124 && enemySpawn[68] == true){ //aprox. 1:04 segundos
+          enemyMove[68] = true;
+        }  
+          if(audioSource.timeSamples >= 2848795 && enemySpawn[69] == true){ //aprox. 1:04.5 segundos
+          enemyMove[69] = true;
+        }  
+          if(audioSource.timeSamples >= 2870845 && enemySpawn[70] == true){ //aprox. 1:05 segundos
+          enemyMove[70] = true;
+        }  
+          if(audioSource.timeSamples >= 2892895 && enemySpawn[71] == true){ //aprox. 1:05.5 segundos
+          enemyMove[71] = true;
+        }
+          if(audioSource.timeSamples >= 2914324 && enemySpawn[72] == true){ //aprox. 1:06 segundos
+          enemyMove[72] = true;
+        }
+          if(audioSource.timeSamples >= 2936374 && enemySpawn[73] == true){ //aprox. 1:06.5 segundos
+          enemyMove[73] = true;
+        }
+         if(audioSource.timeSamples >= 2959045 && enemySpawn[74] == true){ //aprox. 1:07 segundos
+          enemyMove[74] = true;
+        }
+         if(audioSource.timeSamples >= 2980474 && enemySpawn[75] == true){ //aprox. 1:07.5 segundos
+          enemyMove[75] = true;
+        }
+         if(audioSource.timeSamples >= 3003766 && enemySpawn[76] == true){ //aprox. 1:08 segundos
+          enemyMove[76] = true;
+        }
+        if(audioSource.timeSamples >= 3024574 && enemySpawn[77] == true){ //aprox. 1:08.5 segundos
+          enemyMove[77] = true;
+        }
+        if(audioSource.timeSamples >= 3047245 && enemySpawn[78] == true){ //aprox. 1:09 segundos
+          enemyMove[78] = true;
+        }
+        if(audioSource.timeSamples >= 3068054 && enemySpawn[79] == true){ //aprox. 1:09.5 segundos
+          enemyMove[79] = true;
+        }
+        if(audioSource.timeSamples >= 3091345 && enemySpawn[80] == true){ //aprox. 1:10 segundos
+          enemyMove[80] = true;
+        }
+        if(audioSource.timeSamples >= 3112774 && enemySpawn[81] == true){ //aprox. 1:10.5 segundos
+          enemyMove[81] = true;
+        }
+        if(audioSource.timeSamples >= 3134824 && enemySpawn[82] == true){ //aprox. 1:11 segundos
+          enemyMove[82] = true;
+        }
+        if(audioSource.timeSamples >= 3157495 && enemySpawn[83] == true){ //aprox. 1:11.5 segundos
+          enemyMove[83] = true;
+        }
+        if(audioSource.timeSamples >= 3179545 && enemySpawn[84] == true){ //aprox. 1:12 segundos
+          enemyMove[84] = true;
+        }
+        if(audioSource.timeSamples >= 3200974 && enemySpawn[86] == true){ //aprox. 1:12.5 segundos
+          enemyMove[86] = true;
+        }
+        if(audioSource.timeSamples >= 3223645 && enemySpawn[87] == true){ //aprox. 1:13 segundos
+          enemyMove[87] = true;
+        }
+        if(audioSource.timeSamples >= 3245074 && enemySpawn[88] == true){ //aprox. 1:13.5 segundos
+          enemyMove[88] = true;
+        }
+        if(audioSource.timeSamples >= 3267745 && enemySpawn[89] == true){ //aprox. 1:14 segundos
+          enemyMove[89] = true;
+        }
+        if(audioSource.timeSamples >= 3289174 && enemySpawn[90] == true){ //aprox. 1:14.5 segundos
+          enemyMove[90] = true;
+        }
+        if(audioSource.timeSamples >= 3311845 && enemySpawn[91] == true){ //aprox. 1:15 segundos
+          enemyMove[91] = true;
+        }
+        if(audioSource.timeSamples >= 3333895 && enemySpawn[92] == true){ //aprox. 1:15.5 segundos
+          enemyMove[92] = true;
+        }
+        if(audioSource.timeSamples >= 3350359 && enemySpawn[93] == true){ //aprox. 1:16 segundos
+          enemyMove[93] = true;
+        }
+        if(audioSource.timeSamples >= 3377374 && enemySpawn[94] == true){ //aprox. 1:16.5 segundos
+          enemyMove[94] = true;
+        }
+        if(audioSource.timeSamples >= 3399424 && enemySpawn[95] == true){ //aprox. 1:17 segundos
+          enemyMove[95] = true;
+        }
+        if(audioSource.timeSamples >= 3422095 && enemySpawn[96] == true){ //aprox. 1:17.5 segundos
+          enemyMove[96] = true;
+        }
+        if(audioSource.timeSamples >= 3442904 && enemySpawn[97] == true){ //aprox. 1:18 segundos
+          enemyMove[97] = true;
+        }
+        if(audioSource.timeSamples >= 3465574 && enemySpawn[98] == true){ //aprox. 1:18.5 segundos
+          enemyMove[98] = true;
+        }
+        if(audioSource.timeSamples >= 3487004 && enemySpawn[99] == true){ //aprox. 1:19 segundos
+          enemyMove[99] = true;
+        }
+        if(audioSource.timeSamples >= 3531104 && enemySpawn[100] == true){ //aprox. 1:20 segundos
+          enemyMove[100] = true;
+        }
+        if(audioSource.timeSamples >= 3573962 && enemySpawn[101] == true){ //aprox. 1:21 segundos
+          enemyMove[101] = true;
+        }
+        if(audioSource.timeSamples >= 3597874 && enemySpawn[102] == true){ //aprox. 1:21.5 segundos
+          enemyMove[102] = true;
+        }
+        if(audioSource.timeSamples >= 3619304 && enemySpawn[103] == true){ //aprox. 1:22 segundos
+          enemyMove[103] = true;
+        }
+        if(audioSource.timeSamples >= 3641354 && enemySpawn[104] == true){ //aprox. 1:22.5 segundos
+          enemyMove[104] = true;
+        }
+         if(audioSource.timeSamples >= 3664024 && enemySpawn[105] == true){ //aprox. 1:23 segundos
+          enemyMove[105] = true;
+        }
+         if(audioSource.timeSamples >= 3686074 && enemySpawn[106] == true){ //aprox. 1:23.5 segundos
+          enemyMove[106] = true;
+        }
+         if(audioSource.timeSamples >= 3707504 && enemySpawn[107] == true){ //aprox. 1:24 segundos
+          enemyMove[107] = true;
+        }
+         if(audioSource.timeSamples >= 3730795 && enemySpawn[108] == true){ //aprox. 1:24.5 segundos
+          enemyMove[108] = true;
+        }
+         if(audioSource.timeSamples >= 3752224 && enemySpawn[109] == true){ //aprox. 1:25 segundos
+          enemyMove[109] = true;
+        }
+         if(audioSource.timeSamples >= 3774895 && enemySpawn[110] == true){ //aprox. 1:25.5 segundos
+          enemyMove[110] = true;
+        }
+        if(audioSource.timeSamples >= 3796945  && enemySpawn[111] == true){ //aprox. 1:26 segundos
+          enemyMove[111] = true;
+        }
+        if(audioSource.timeSamples >= 3818995  && enemySpawn[112] == true){ //aprox. 1:26.5 segundos
+          enemyMove[112] = true;
+        }
+        if(audioSource.timeSamples >= 3840424  && enemySpawn[113] == true){ //aprox. 1:27 segundos
+          enemyMove[113] = true;
+        }
+        if(audioSource.timeSamples >= 3863095  && enemySpawn[114] == true){ //aprox. 1:27.5 segundos
+          enemyMove[114] = true;
+        }
+        if(audioSource.timeSamples >= 3884524  && enemySpawn[115] == true){ //aprox. 1:28 segundos
+          enemyMove[115] = true;
+        }
+        if(audioSource.timeSamples >= 3906574  && enemySpawn[116] == true){ //aprox. 1:28.5 segundos
+          enemyMove[116] = true;
+        }
+        if(audioSource.timeSamples >= 3929245  && enemySpawn[117] == true){ //aprox. 1:29 segundos
+          enemyMove[117] = true;
+        }
+        if(audioSource.timeSamples >= 3950674  && enemySpawn[118] == true){ //aprox. 1:29.5 segundos
+          enemyMove[118] = true;
+        }
+        if(audioSource.timeSamples >= 3973345  && enemySpawn[119] == true){ //aprox. 1:30 segundos
+          enemyMove[119] = true;
+        }
+        if(audioSource.timeSamples >= 3994174  && enemySpawn[120] == true){ //aprox. 1:30.5 segundos
+          enemyMove[120] = true;
+        }
+        if(audioSource.timeSamples >= 4017445  && enemySpawn[121] == true){ //aprox. 1:31 segundos
+          enemyMove[121] = true;
+        }
+        if(audioSource.timeSamples >= 4038874  && enemySpawn[122] == true){ //aprox. 1:31.5 segundos
+          enemyMove[122] = true;
+        }
+         if(audioSource.timeSamples >= 4054717  && enemySpawn[123] == true){ //aprox. 1:31.9 segundos
+          enemyMove[123] = true;
+        }
+         if(audioSource.timeSamples >= 4082354  && enemySpawn[124] == true){ //aprox. 1:32.5 segundos
+          enemyMove[124] = true;
+        }
+        if(audioSource.timeSamples >= 4105024  && enemySpawn[125] == true){ //aprox. 1:33 segundos
+          enemyMove[125] = true;
+        }
+        if(audioSource.timeSamples >= 4127074  && enemySpawn[126] == true){ //aprox. 1:33.5 segundos
+          enemyMove[126] = true;
+        }
+        if(audioSource.timeSamples >= 4149124  && enemySpawn[127] == true){ //aprox. 1:34 segundos
+          enemyMove[127] = true;
+        }
+        if(audioSource.timeSamples >= 4171174 && enemySpawn[128] == true){ //aprox. 1:34.5 segundos
+          enemyMove[128] = true;
+        }
+        if(audioSource.timeSamples >= 4193224 && enemySpawn[129] == true){ //aprox. 1:35 segundos
+          enemyMove[129] = true;
+        }
+        if(audioSource.timeSamples >= 4215274 && enemySpawn[130] == true){ //aprox. 1:35.5 segundos
+          enemyMove[130] = true;
+        }
+        if(audioSource.timeSamples >= 4237234 && enemySpawn[131] == true){ //aprox. 1:36 segundos
+          enemyMove[131] = true;
+        }
+
+
+
+
+
      }
 
     void moveEnemies(){
