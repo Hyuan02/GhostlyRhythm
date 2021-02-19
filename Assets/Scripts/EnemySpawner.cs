@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.Linq;
 
 public class EnemySpawner : MonoBehaviour
 {
@@ -895,7 +896,15 @@ public class EnemySpawner : MonoBehaviour
 
         //var enemyY = TrailsManager.instance.OccupiedTrail.trailObject.transform.position.y;
 
-        return Instantiate(enemyObject, new Vector3(movingDolly.transform.position.x + enemyOffsetX, enemyY, enemyZ), transform.rotation);
+        var gameObjectNew = Instantiate(enemyObject, this.transform);
+        gameObjectNew.transform.position = new Vector3(movingDolly.transform.position.x + enemyOffsetX, enemyY, enemyZ);
+        return gameObjectNew;
+    }
+
+    public void ResetVectors()
+    {
+        enemySpawn = new bool[204];
+        enemyMove = new bool[204];
     }
 
 }

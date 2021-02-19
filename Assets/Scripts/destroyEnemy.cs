@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class destroyEnemy : MonoBehaviour
 {
-         void OnBecameInvisible() {
-             Destroy(gameObject);
-         }
+    void OnBecameInvisible() {
+        Debug.Log("Score! ");
+        GameManager.instance.IncrementScore();
+        Destroy(gameObject);
+    }
 }
