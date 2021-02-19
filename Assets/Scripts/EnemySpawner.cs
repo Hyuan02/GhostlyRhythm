@@ -6,7 +6,7 @@ public class EnemySpawner : MonoBehaviour
 {
     // Start is called before the first frame update
     public GameObject enemyObject;
-    public int enemiesNumber = 204; // ATENÇÃO PARA ESSE NUMERO
+    private int enemiesNumber = 204; // ATENÇÃO PARA ESSE NUMERO
     private GameObject[] enemies = new GameObject[204];
 
     private bool[] enemySpawn = new bool[204]; 
@@ -22,7 +22,9 @@ public class EnemySpawner : MonoBehaviour
     private float enemyOffsetX = 13f;
     [SerializeField]
     private GameObject movingDolly;
-    
+    float contadorSpawn1 = 62f;
+    float contadorSpawn2 = 70.5f;
+    float contadorSpawn3 = 79f;
 
     void Start()
     {
@@ -310,7 +312,7 @@ public class EnemySpawner : MonoBehaviour
            enemySpawn[63] = true;
         }
         
-        if(audioSource.timeSamples >= 2160900 && enemySpawn[64] == false){   //aprox. 51 segundos
+       if(audioSource.timeSamples >= 2160900 && enemySpawn[64] == false){   //aprox. 51 segundos
            enemies[64] = SpawnEnemy();
            enemySpawn[64] = true;
         }
@@ -318,9 +320,49 @@ public class EnemySpawner : MonoBehaviour
            enemies[65] = SpawnEnemy();
            enemySpawn[65] = true;
         }
-        if(audioSource.timeSamples >= 2160900 && enemySpawn[66] == false){   //aprox. 51 segundos
+        if(audioSource.timeSamples >= 2550744 && enemySpawn[66] == false){   //aprox. 59 segundos
            enemies[66] = SpawnEnemy();
            enemySpawn[66] = true;
+        }
+        
+        for(int i = 67; i<=84; i++ ){
+            if(audioSource.time >= contadorSpawn1 && enemySpawn[i] == false){   
+            //aprox. 59 segundos
+            
+            enemies[i] = SpawnEnemy();
+            contadorSpawn1 += 0.5f;
+            enemySpawn[i] = true;
+            
+          }
+        }
+
+          for(int j = 86; j<=99; j++ ){
+            if(audioSource.time >= contadorSpawn2 && enemySpawn[j] == false){   
+            //aprox. 59 segundos
+            
+            enemies[j] = SpawnEnemy();
+            contadorSpawn2 += 0.5f;
+            enemySpawn[j] = true;
+            
+          }
+        }
+        
+        if(audioSource.timeSamples >= 3439800 && enemySpawn[100] == false){   //aprox. 1:18 segundos
+           enemies[100] = SpawnEnemy();
+           enemySpawn[100] = true;
+        }
+        
+      
+        
+        for(int l = 101; l<=131; l++ ){
+            if(audioSource.time >= contadorSpawn3 && enemySpawn[l] == false){   
+            //aprox. 59 segundos
+            
+            enemies[l] = SpawnEnemy();
+            contadorSpawn3 += 0.5f;
+            enemySpawn[l] = true;
+            
+          }
         }
       
 
@@ -808,7 +850,7 @@ public class EnemySpawner : MonoBehaviour
                     enemies[i].transform.Translate(new Vector3(enemyVelocity,0,0) * Time.deltaTime);
                 }
                 else{
-                    Debug.Log("Dead "+i);
+                   // Debug.Log("Dead "+i);
                 } 
             }
         }
