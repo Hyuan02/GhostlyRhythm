@@ -1392,7 +1392,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyObject: {fileID: 3210792686962062238, guid: 5004cb13e99cd8e448ed412a2936e1f5,
     type: 3}
-  enemiesNumber: 50
   movingDolly: {fileID: 1707741817}
 --- !u!1 &1088416694
 GameObject:
@@ -2153,6 +2152,8 @@ MonoBehaviour:
   scoreText: {fileID: 1476814528}
   gameOverScreen: {fileID: 432749342}
   player: {fileID: 1177721625}
+  mainMusic: {fileID: 1046775017}
+  spawner: {fileID: 1046775018}
 --- !u!4 &2027765913
 Transform:
   m_ObjectHideFlags: 0

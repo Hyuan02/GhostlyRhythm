@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using System.Linq;
 
 public class GameManager : MonoBehaviour
 {
@@ -16,6 +17,11 @@ public class GameManager : MonoBehaviour
     private GameObject gameOverScreen = null;
     [SerializeField]
     private GameObject player = null;
+    [SerializeField]
+    private AudioSource mainMusic = null;
+    [SerializeField]
+    private EnemySpawner spawner = null;
+
     private void Awake()
     {
         instance = this;
@@ -29,6 +35,19 @@ public class GameManager : MonoBehaviour
 
     public void RestartGame()
     {
+        
+        if (mainMusic)
+        {
+            mainMusic.Stop();
+            mainMusic.Play();
+
+        }
+        if (spawner)
+        {
+            spawner.ResetVectors();
+            ClearEnemies();
+        }
+
         gameOverScreen.SetActive(false);
         Time.timeScale = 1;
         this.player.SetActive(true);
@@ -48,7 +67,8 @@ public class GameManager : MonoBehaviour
 
     void UpdateScore()
     {
-        scoreText.text = " " + score;
+        if(scoreText)
+            scoreText.text = " " + score;
     }
 
     public void IncrementScore()
@@ -60,5 +80,14 @@ public class GameManager : MonoBehaviour
     {
         score = 0;
         UpdateScore();
+    }
+
+    void ClearEnemies()
+    {
+        var enemies = this.spawner.transform.Cast<Transform>().ToList().ConvertAll(t => t.gameObject);
+        for (int i = 0; i < enemies.Count; i++)
+        {
+            DestroyImmediate(enemies[i]);
+        }
     }
 }
