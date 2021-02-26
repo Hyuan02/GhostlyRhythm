@@ -19,6 +19,9 @@ public class GameManager : MonoBehaviour
     private GameObject player = null;
     [SerializeField]
     private AudioSource mainMusic = null;
+    [Range(0f, 40f)]
+    [SerializeField]
+    private float timeOfMusicToStart = 0.0f;
     [SerializeField]
     private EnemySpawner spawner = null;
 
@@ -39,6 +42,7 @@ public class GameManager : MonoBehaviour
         if (mainMusic)
         {
             mainMusic.Stop();
+            mainMusic.time = timeOfMusicToStart;
             mainMusic.Play();
 
         }
@@ -50,6 +54,7 @@ public class GameManager : MonoBehaviour
 
         gameOverScreen.SetActive(false);
         Time.timeScale = 1;
+
         this.player.SetActive(true);
         ResetScore();
     }

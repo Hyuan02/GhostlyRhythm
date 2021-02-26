@@ -14,6 +14,8 @@ public class MenuManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+
+       Time.timeScale = 1f;
        currentmode = PlayerPrefs.GetInt("AudioMode", 1);
        audioToggle.isOn = currentmode == 0 ? true : false;
     }
