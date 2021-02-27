@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using System.Linq;
+using UnityEngine.Analytics;
 
 public class GameManager : MonoBehaviour
 {
@@ -90,7 +91,15 @@ public static IEnumerator StartFade(AudioSource audioSource, float duration, flo
         Time.timeScale = 0;
         UpdateGameOverScore();
         gameOverScreen.SetActive(true);
+        AnalyticsResult analyticsResult = Analytics.CustomEvent(
+            "Death", new Dictionary<string, object>{
+            {"Death level", score}
+
+        });
+
+        //Debug.Log(analyticsResult);
       //  StartCoroutine(StartFade(mainMusic, 3f, 0.3f));
+       
         mainMusic.volume = 0.2f;
        // PlayerPrefs.SetString("FadeSound", "true");
         
