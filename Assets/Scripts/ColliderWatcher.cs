@@ -6,7 +6,7 @@ public class ColliderWatcher : MonoBehaviour
 {
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        Debug.Log("Game Over");
+       // Debug.Log("Game Over");
         if (collision.CompareTag("Enemy"))
         {
             

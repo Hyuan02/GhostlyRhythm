@@ -33,36 +33,64 @@ public class GameManager : MonoBehaviour
     private void Start()
     {
         Time.timeScale = 1;
+        PlayerPrefs.SetString("FadeSound", "false");
     }
 
+
+public static IEnumerator StartFade(AudioSource audioSource, float duration, float targetVolume)
+    {
+        float currentTime = 0;
+        float start = audioSource.volume;
+
+        while (currentTime < duration)
+        {
+            currentTime += Time.deltaTime;
+            audioSource.volume = Mathf.Lerp(start, targetVolume, currentTime / duration);
+            yield return null;
+        }
+        yield break;
+    }
+
+
+    
 
     public void RestartGame()
     {
         
+        mainMusic.volume = 1;
         if (mainMusic)
         {
             mainMusic.Stop();
             mainMusic.time = timeOfMusicToStart;
+            
+           // PlayerPrefs.SetString("FadeSound", "false");
             mainMusic.Play();
 
         }
         if (spawner)
-        {
+        {  
             spawner.ResetVectors();
             ClearEnemies();
+            
         }
 
         gameOverScreen.SetActive(false);
+        
         Time.timeScale = 1;
-
+        
         this.player.SetActive(true);
         ResetScore();
     }
 
     public void CallGameOver()
-    {
+    {   
+        
         Time.timeScale = 0;
         gameOverScreen.SetActive(true);
+      //  StartCoroutine(StartFade(mainMusic, 3f, 0.3f));
+        mainMusic.volume = 0.2f;
+       // PlayerPrefs.SetString("FadeSound", "true");
+        
     }
 
     public void ChangeToMenuScene()
