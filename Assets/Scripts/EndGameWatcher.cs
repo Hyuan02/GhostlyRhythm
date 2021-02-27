@@ -7,10 +7,10 @@ using UnityEngine.Video;
 public class EndGameWatcher : MonoBehaviour
 {
     [SerializeField]
-    private AudioSource source;
+    private AudioSource source = null;
 
     [SerializeField]
-    private UnityEvent eventOnEnd;
+    private UnityEvent eventOnEnd = null;
 
     bool activated = false;
 

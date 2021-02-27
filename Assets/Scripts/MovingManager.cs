@@ -25,6 +25,13 @@ public class MovingManager : MonoBehaviour
         MovingPlayer(MovingType.LEFT);
     }
 
+    public void StartPlayer()
+    {
+        currentTrailIndex = 2;
+        currentTrail = TrailsManager.instance.OccupyTrail(currentTrailIndex);
+        this.transform.position = new Vector3(this.transform.position.x, currentTrail.trailObject.transform.position.y, this.transform.position.z);
+    }
+
     public void MovingPlayer(MovingType direction)
     {
         ApplyForceToPlayer(direction, SwipeManager.currentTouchVelocity);
@@ -69,8 +76,7 @@ public class MovingManager : MonoBehaviour
     #region "UNITY_METHODS"
     private void Start()
     {
-        currentTrail = TrailsManager.instance.OccupyTrail(currentTrailIndex);
-        this.transform.position = new Vector3(this.transform.position.x, currentTrail.trailObject.transform.position.y, this.transform.position.z);
+        StartPlayer();
     }
 
     private void FixedUpdate()

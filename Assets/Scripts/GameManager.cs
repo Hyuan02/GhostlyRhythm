@@ -14,6 +14,8 @@ public class GameManager : MonoBehaviour
     [SerializeField]
     private Text scoreText = null;
     [SerializeField]
+    private Text gameOverScoreText = null;
+    [SerializeField]
     private GameObject gameOverScreen = null;
     [SerializeField]
     private GameObject player = null;
@@ -77,7 +79,7 @@ public static IEnumerator StartFade(AudioSource audioSource, float duration, flo
         gameOverScreen.SetActive(false);
         
         Time.timeScale = 1;
-        
+        this.player.GetComponent<MovingManager>().StartPlayer();
         this.player.SetActive(true);
         ResetScore();
     }
@@ -86,6 +88,7 @@ public static IEnumerator StartFade(AudioSource audioSource, float duration, flo
     {   
         
         Time.timeScale = 0;
+        UpdateGameOverScore();
         gameOverScreen.SetActive(true);
       //  StartCoroutine(StartFade(mainMusic, 3f, 0.3f));
         mainMusic.volume = 0.2f;
@@ -102,6 +105,12 @@ public static IEnumerator StartFade(AudioSource audioSource, float duration, flo
     {
         if(scoreText)
             scoreText.text = " " + score;
+    }
+
+    void UpdateGameOverScore()
+    {
+        if (gameOverScoreText)
+            gameOverScoreText.text = " " + score;
     }
 
     public void IncrementScore()

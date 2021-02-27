@@ -22,7 +22,7 @@ public class EnemySpawner : MonoBehaviour
 
     private float enemyOffsetX = 13f;
     [SerializeField]
-    private GameObject movingDolly;
+    private GameObject movingDolly = null;
     float contadorSpawn1 = 62f;
     float contadorSpawn2 = 70.5f;
     float contadorSpawn3 = 79f;

@@ -8,7 +8,7 @@ public class AudioSyncSpawner : AudioSyncer
     public GameObject enemyObject;
 
     [SerializeField]
-    private GameObject movingDolly;
+    private GameObject movingDolly = null;
 
     [SerializeField]
     private GameObject[] trailsObject = { }; 

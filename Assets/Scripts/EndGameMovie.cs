@@ -17,7 +17,7 @@ public class EndGameMovie : MonoBehaviour
 
     private void Update()
     {
-        if(actualPlayer.time >= actualPlayer.clip.length)
+        if(actualPlayer.time >= actualPlayer.clip.length && !activated)
         {
             activated = true;
             ChangeToInitScene();
