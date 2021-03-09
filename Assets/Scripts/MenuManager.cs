@@ -7,13 +7,15 @@ using UnityEngine.UI;
 public class MenuManager : MonoBehaviour
 {
     [SerializeField]
-    Toggle audioToggle;
+    Toggle audioToggle = null;
     [SerializeField]
-    AudioSource mainSource;
+    AudioSource mainSource = null;
     int currentmode = 1;
     // Start is called before the first frame update
     void Start()
     {
+
+       Time.timeScale = 1f;
        currentmode = PlayerPrefs.GetInt("AudioMode", 1);
        audioToggle.isOn = currentmode == 0 ? true : false;
     }

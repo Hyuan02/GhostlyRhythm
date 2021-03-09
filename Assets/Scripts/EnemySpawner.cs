@@ -18,11 +18,11 @@ public class EnemySpawner : MonoBehaviour
     private  float[] posY = new float[] { 3f,1.5f, 0, -1.5f, -3f };
 
     private float enemyZ, enemyX;
-    private int enemyVelocity = -30;
+    private int enemyVelocity = -15;
 
     private float enemyOffsetX = 13f;
     [SerializeField]
-    private GameObject movingDolly;
+    private GameObject movingDolly = null;
     float contadorSpawn1 = 62f;
     float contadorSpawn2 = 70.5f;
     float contadorSpawn3 = 79f;
@@ -905,6 +905,9 @@ public class EnemySpawner : MonoBehaviour
     {
         enemySpawn = new bool[204];
         enemyMove = new bool[204];
+        contadorSpawn1 = 62f;
+        contadorSpawn2 = 70.5f;
+        contadorSpawn3 = 79f;
     }
 
 }
