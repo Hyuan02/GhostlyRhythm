@@ -146,6 +146,1200 @@ TextureImporter:
   - first:
       213: 121831472836694998
     second: enemy01_idle_spritesheet_47
+  - first:
+      213: 3429219545180834191
+    second: enemy01_idle_spritesheet_24
+  - first:
+      213: 5491028465422106585
+    second: enemy01_idle_spritesheet_25
+  - first:
+      213: 4746385046695567665
+    second: enemy01_idle_spritesheet_26
+  - first:
+      213: -35796811164278142
+    second: enemy01_idle_spritesheet_30
+  - first:
+      213: 1009046585068490360
+    second: enemy01_idle_spritesheet_31
+  - first:
+      213: 7958226208964283810
+    second: enemy01_idle_spritesheet_32
+  - first:
+      213: -8018636820029817779
+    second: enemy01_idle_spritesheet_36
+  - first:
+      213: 7020820336251144620
+    second: enemy01_idle_spritesheet_37
+  - first:
+      213: 3837063813326974022
+    second: enemy01_idle_spritesheet_38
+  - first:
+      213: -1816022503123285499
+    second: enemy01_idle_spritesheet_42
+  - first:
+      213: -3490261528605265062
+    second: enemy01_idle_spritesheet_43
+  - first:
+      213: -7453516210778044676
+    second: enemy01_idle_spritesheet_44
+  - first:
+      213: -4473937403087460256
+    second: enemy01_idle_spritesheet_48
+  - first:
+      213: 1995106477805543200
+    second: enemy01_idle_spritesheet_49
+  - first:
+      213: 5160125052762108115
+    second: enemy01_idle_spritesheet_50
+  - first:
+      213: -7881305698602985524
+    second: enemy01_idle_spritesheet_51
+  - first:
+      213: -6205855505466353530
+    second: enemy01_idle_spritesheet_52
+  - first:
+      213: 8223686123025878949
+    second: enemy01_idle_spritesheet_53
+  - first:
+      213: 2428250932200009456
+    second: enemy01_idle_spritesheet_54
+  - first:
+      213: 5849978018133862973
+    second: enemy01_idle_spritesheet_55
+  - first:
+      213: -7062626356719641478
+    second: enemy01_idle_spritesheet_56
+  - first:
+      213: 2389871563310631453
+    second: enemy01_idle_spritesheet_57
+  - first:
+      213: 5510881314181502316
+    second: enemy01_idle_spritesheet_58
+  - first:
+      213: -901395988567084277
+    second: enemy01_idle_spritesheet_59
+  - first:
+      213: 7519184424276627162
+    second: enemy01_idle_spritesheet_60
+  - first:
+      213: 1661295967134390249
+    second: enemy01_idle_spritesheet_61
+  - first:
+      213: -9142826928711030750
+    second: enemy01_idle_spritesheet_62
+  - first:
+      213: 5260241020787953700
+    second: enemy01_idle_spritesheet_63
+  - first:
+      213: -3678446485680361250
+    second: enemy01_idle_spritesheet_64
+  - first:
+      213: 1702004405338094349
+    second: enemy01_idle_spritesheet_65
+  - first:
+      213: 7234948043276581678
+    second: enemy01_idle_spritesheet_66
+  - first:
+      213: -6630617398657858061
+    second: enemy01_idle_spritesheet_67
+  - first:
+      213: -8442953937660639409
+    second: enemy01_idle_spritesheet_68
+  - first:
+      213: 7696514206556684195
+    second: enemy01_idle_spritesheet_69
+  - first:
+      213: 7779827186172603030
+    second: enemy01_idle_spritesheet_70
+  - first:
+      213: -7919614539706553610
+    second: enemy01_idle_spritesheet_71
+  - first:
+      213: -1241587794927818694
+    second: enemy01_idle_spritesheet_72
+  - first:
+      213: -9181912539821899198
+    second: enemy01_idle_spritesheet_73
+  - first:
+      213: -5962239767573236352
+    second: enemy01_idle_spritesheet_74
+  - first:
+      213: 5103532770759912517
+    second: enemy01_idle_spritesheet_75
+  - first:
+      213: -8495093842707150214
+    second: enemy01_idle_spritesheet_76
+  - first:
+      213: -371859432417185910
+    second: enemy01_idle_spritesheet_77
+  - first:
+      213: 6409322028226621107
+    second: enemy01_idle_spritesheet_78
+  - first:
+      213: -7750026346828197739
+    second: enemy01_idle_spritesheet_79
+  - first:
+      213: -3896493357204937151
+    second: enemy01_idle_spritesheet_80
+  - first:
+      213: 3067695772490378181
+    second: enemy01_idle_spritesheet_81
+  - first:
+      213: 2771840925582394387
+    second: enemy01_idle_spritesheet_82
+  - first:
+      213: 7439755752121527742
+    second: enemy01_idle_spritesheet_83
+  - first:
+      213: -3631840807219457132
+    second: enemy01_idle_spritesheet_84
+  - first:
+      213: -4284922939471565833
+    second: enemy01_idle_spritesheet_85
+  - first:
+      213: -4653007440241459710
+    second: enemy01_idle_spritesheet_86
+  - first:
+      213: 6851695726021548982
+    second: enemy01_idle_spritesheet_87
+  - first:
+      213: 7106478765054216231
+    second: enemy01_idle_spritesheet_88
+  - first:
+      213: 8173918786110040048
+    second: enemy01_idle_spritesheet_89
+  - first:
+      213: 3050257275988443507
+    second: enemy01_idle_spritesheet_90
+  - first:
+      213: 4381978568386034617
+    second: enemy01_idle_spritesheet_91
+  - first:
+      213: 765811398084369595
+    second: enemy01_idle_spritesheet_92
+  - first:
+      213: 2255454583210963264
+    second: enemy01_idle_spritesheet_93
+  - first:
+      213: -6351079555375541098
+    second: enemy01_idle_spritesheet_94
+  - first:
+      213: -4388328249964492275
+    second: enemy01_idle_spritesheet_95
+  - first:
+      213: 6062045756218970045
+    second: enemy01_idle_spritesheet_96
+  - first:
+      213: -61327960255700520
+    second: enemy01_idle_spritesheet_97
+  - first:
+      213: 3356986683853365535
+    second: enemy01_idle_spritesheet_98
+  - first:
+      213: -920513232328926538
+    second: enemy01_idle_spritesheet_99
+  - first:
+      213: 5484409426564801812
+    second: enemy01_idle_spritesheet_100
+  - first:
+      213: -2388887375211862282
+    second: enemy01_idle_spritesheet_101
+  - first:
+      213: 557602560697675923
+    second: enemy01_idle_spritesheet_102
+  - first:
+      213: -6661711228453516242
+    second: enemy01_idle_spritesheet_103
+  - first:
+      213: 8898567990827020459
+    second: enemy01_idle_spritesheet_104
+  - first:
+      213: 4193393904913030534
+    second: enemy01_idle_spritesheet_105
+  - first:
+      213: -8606531460034169493
+    second: enemy01_idle_spritesheet_106
+  - first:
+      213: 5259377794695956654
+    second: enemy01_idle_spritesheet_107
+  - first:
+      213: 7662672884299424285
+    second: enemy01_idle_spritesheet_108
+  - first:
+      213: 3313764264446932390
+    second: enemy01_idle_spritesheet_109
+  - first:
+      213: -6153847053487353708
+    second: enemy01_idle_spritesheet_110
+  - first:
+      213: -8871358746536722122
+    second: enemy01_idle_spritesheet_111
+  - first:
+      213: -670567321235976841
+    second: enemy01_idle_spritesheet_112
+  - first:
+      213: -2094935373744081465
+    second: enemy01_idle_spritesheet_113
+  - first:
+      213: -359846775244978973
+    second: enemy01_idle_spritesheet_114
+  - first:
+      213: -2524606922116410486
+    second: enemy01_idle_spritesheet_115
+  - first:
+      213: 5972290269165297819
+    second: enemy01_idle_spritesheet_116
+  - first:
+      213: -2722967314395118308
+    second: enemy01_idle_spritesheet_117
+  - first:
+      213: 5857545104968353749
+    second: enemy01_idle_spritesheet_118
+  - first:
+      213: -7505009063798457797
+    second: enemy01_idle_spritesheet_119
+  - first:
+      213: 1090661888358626323
+    second: enemy01_idle_spritesheet_120
+  - first:
+      213: -489487071693860561
+    second: enemy01_idle_spritesheet_121
+  - first:
+      213: 4373282139869238002
+    second: enemy01_idle_spritesheet_122
+  - first:
+      213: 6379904076314555473
+    second: enemy01_idle_spritesheet_123
+  - first:
+      213: -9019368385836891278
+    second: enemy01_idle_spritesheet_124
+  - first:
+      213: -5708500634172979007
+    second: enemy01_idle_spritesheet_125
+  - first:
+      213: -5373342475986770862
+    second: enemy01_idle_spritesheet_126
+  - first:
+      213: 1037382044903554269
+    second: enemy01_idle_spritesheet_127
+  - first:
+      213: -5947274384133315863
+    second: enemy01_idle_spritesheet_128
+  - first:
+      213: 1192586266234199523
+    second: enemy01_idle_spritesheet_129
+  - first:
+      213: 8100301289211480528
+    second: enemy01_idle_spritesheet_130
+  - first:
+      213: -1447790377103376672
+    second: enemy01_idle_spritesheet_131
+  - first:
+      213: -952377264791624848
+    second: enemy01_idle_spritesheet_132
+  - first:
+      213: -8351278457887168764
+    second: enemy01_idle_spritesheet_133
+  - first:
+      213: -3785400233783366502
+    second: enemy01_idle_spritesheet_134
+  - first:
+      213: -5110075337989811638
+    second: enemy01_idle_spritesheet_135
+  - first:
+      213: -2219344394830942173
+    second: enemy01_idle_spritesheet_136
+  - first:
+      213: 4781865253719830401
+    second: enemy01_idle_spritesheet_137
+  - first:
+      213: -2862231166374927506
+    second: enemy01_idle_spritesheet_138
+  - first:
+      213: 7432793555936807115
+    second: enemy01_idle_spritesheet_139
+  - first:
+      213: 5972418048435539193
+    second: enemy01_idle_spritesheet_140
+  - first:
+      213: -371904100852409488
+    second: enemy01_idle_spritesheet_141
+  - first:
+      213: -1917730984326658909
+    second: enemy01_idle_spritesheet_142
+  - first:
+      213: 6906142697207838434
+    second: enemy01_idle_spritesheet_143
+  - first:
+      213: -2079493233024582236
+    second: enemy01_idle_spritesheet_144
+  - first:
+      213: -3435222205399591091
+    second: enemy01_idle_spritesheet_145
+  - first:
+      213: -2093110660828783875
+    second: enemy01_idle_spritesheet_146
+  - first:
+      213: -120339928009098851
+    second: enemy01_idle_spritesheet_147
+  - first:
+      213: -8491695822835605529
+    second: enemy01_idle_spritesheet_148
+  - first:
+      213: 8211629534850574261
+    second: enemy01_idle_spritesheet_149
+  - first:
+      213: 5018064169848059930
+    second: enemy01_idle_spritesheet_150
+  - first:
+      213: -9112559229217945803
+    second: enemy01_idle_spritesheet_151
+  - first:
+      213: -4421161995261488829
+    second: enemy01_idle_spritesheet_152
+  - first:
+      213: 8248041177164327092
+    second: enemy01_idle_spritesheet_153
+  - first:
+      213: -7523415798451494734
+    second: enemy01_idle_spritesheet_154
+  - first:
+      213: -5764750533986286236
+    second: enemy01_idle_spritesheet_155
+  - first:
+      213: -8342357311989163174
+    second: enemy01_idle_spritesheet_156
+  - first:
+      213: -4935617318703934006
+    second: enemy01_idle_spritesheet_157
+  - first:
+      213: 6193482725140608047
+    second: enemy01_idle_spritesheet_158
+  - first:
+      213: 4339666331032888424
+    second: enemy01_idle_spritesheet_159
+  - first:
+      213: -516349933400940373
+    second: enemy01_idle_spritesheet_160
+  - first:
+      213: 1572935932105210921
+    second: enemy01_idle_spritesheet_161
+  - first:
+      213: 5947094172966149854
+    second: enemy01_idle_spritesheet_162
+  - first:
+      213: 8426762727821217118
+    second: enemy01_idle_spritesheet_163
+  - first:
+      213: 1353871383493003302
+    second: enemy01_idle_spritesheet_164
+  - first:
+      213: -980781355221034361
+    second: enemy01_idle_spritesheet_165
+  - first:
+      213: -979034526017186279
+    second: enemy01_idle_spritesheet_166
+  - first:
+      213: 8322054431602996849
+    second: enemy01_idle_spritesheet_167
+  - first:
+      213: -573621434872019822
+    second: enemy01_idle_spritesheet_168
+  - first:
+      213: -710670949326312194
+    second: enemy01_idle_spritesheet_169
+  - first:
+      213: -3877072068707304570
+    second: enemy01_idle_spritesheet_170
+  - first:
+      213: 6965764789108772235
+    second: enemy01_idle_spritesheet_171
+  - first:
+      213: 5340468854403772054
+    second: enemy01_idle_spritesheet_172
+  - first:
+      213: 8520404177646360561
+    second: enemy01_idle_spritesheet_173
+  - first:
+      213: -9095377420258694202
+    second: enemy01_idle_spritesheet_174
+  - first:
+      213: 8527001913583413283
+    second: enemy01_idle_spritesheet_175
+  - first:
+      213: -6260091527194498119
+    second: enemy01_idle_spritesheet_176
+  - first:
+      213: -3179391535966454886
+    second: enemy01_idle_spritesheet_177
+  - first:
+      213: 8332604888312591934
+    second: enemy01_idle_spritesheet_178
+  - first:
+      213: 4246480728231170091
+    second: enemy01_idle_spritesheet_179
+  - first:
+      213: 7408434180707467740
+    second: enemy01_idle_spritesheet_180
+  - first:
+      213: 3789140548857244979
+    second: enemy01_idle_spritesheet_181
+  - first:
+      213: 9196031622566929056
+    second: enemy01_idle_spritesheet_182
+  - first:
+      213: -3147139303162337276
+    second: enemy01_idle_spritesheet_183
+  - first:
+      213: 2160400562090922564
+    second: enemy01_idle_spritesheet_184
+  - first:
+      213: 2711519805737362891
+    second: enemy01_idle_spritesheet_185
+  - first:
+      213: 998126722902390687
+    second: enemy01_idle_spritesheet_186
+  - first:
+      213: -7124095010928682586
+    second: enemy01_idle_spritesheet_187
+  - first:
+      213: -6812342642341925360
+    second: enemy01_idle_spritesheet_188
+  - first:
+      213: 6665815418295425758
+    second: enemy01_idle_spritesheet_189
+  - first:
+      213: 3869265483088021018
+    second: enemy01_idle_spritesheet_190
+  - first:
+      213: 3719997496573984213
+    second: enemy01_idle_spritesheet_191
+  - first:
+      213: 4307227226453490615
+    second: enemy01_idle_spritesheet_192
+  - first:
+      213: -2840894088842795494
+    second: enemy01_idle_spritesheet_193
+  - first:
+      213: -7163832470150781981
+    second: enemy01_idle_spritesheet_194
+  - first:
+      213: 8637757784334919171
+    second: enemy01_idle_spritesheet_195
+  - first:
+      213: 5922327151484146663
+    second: enemy01_idle_spritesheet_196
+  - first:
+      213: -5918531882192476180
+    second: enemy01_idle_spritesheet_197
+  - first:
+      213: -7448565801026090145
+    second: enemy01_idle_spritesheet_198
+  - first:
+      213: -1860214794018709416
+    second: enemy01_idle_spritesheet_199
+  - first:
+      213: 1734604900724882683
+    second: enemy01_idle_spritesheet_200
+  - first:
+      213: -8769024103445492585
+    second: enemy01_idle_spritesheet_201
+  - first:
+      213: -3906266190088434849
+    second: enemy01_idle_spritesheet_202
+  - first:
+      213: -4130461878955059148
+    second: enemy01_idle_spritesheet_203
+  - first:
+      213: 1539259236385880064
+    second: enemy01_idle_spritesheet_204
+  - first:
+      213: 3762603276319232311
+    second: enemy01_idle_spritesheet_205
+  - first:
+      213: -8493595429217143246
+    second: enemy01_idle_spritesheet_206
+  - first:
+      213: -5370940216921459702
+    second: enemy01_idle_spritesheet_207
+  - first:
+      213: 7956505368955413668
+    second: enemy01_idle_spritesheet_208
+  - first:
+      213: -4519283540076989570
+    second: enemy01_idle_spritesheet_209
+  - first:
+      213: -2152546459211178281
+    second: enemy01_idle_spritesheet_210
+  - first:
+      213: 7923473979612272742
+    second: enemy01_idle_spritesheet_211
+  - first:
+      213: -6819287360041880555
+    second: enemy01_idle_spritesheet_212
+  - first:
+      213: -2301219699213994015
+    second: enemy01_idle_spritesheet_213
+  - first:
+      213: -5040879318325293744
+    second: enemy01_idle_spritesheet_214
+  - first:
+      213: 7321756834974734153
+    second: enemy01_idle_spritesheet_215
+  - first:
+      213: -3882371098798169954
+    second: enemy01_idle_spritesheet_216
+  - first:
+      213: 4871160678401755393
+    second: enemy01_idle_spritesheet_217
+  - first:
+      213: 3283817173322971999
+    second: enemy01_idle_spritesheet_218
+  - first:
+      213: -3146543131563270585
+    second: enemy01_idle_spritesheet_219
+  - first:
+      213: -7589524187487539529
+    second: enemy01_idle_spritesheet_220
+  - first:
+      213: 8660091898450825681
+    second: enemy01_idle_spritesheet_221
+  - first:
+      213: 1297731426971052884
+    second: enemy01_idle_spritesheet_222
+  - first:
+      213: 5717103419782975585
+    second: enemy01_idle_spritesheet_223
+  - first:
+      213: 3017859955585253059
+    second: enemy01_idle_spritesheet_224
+  - first:
+      213: 882752985954813828
+    second: enemy01_idle_spritesheet_225
+  - first:
+      213: 3994379240995997364
+    second: enemy01_idle_spritesheet_226
+  - first:
+      213: -2329022392624137362
+    second: enemy01_idle_spritesheet_227
+  - first:
+      213: -1357461113163314864
+    second: enemy01_idle_spritesheet_228
+  - first:
+      213: 623808045428903519
+    second: enemy01_idle_spritesheet_229
+  - first:
+      213: -7508560885102777393
+    second: enemy01_idle_spritesheet_230
+  - first:
+      213: -6280266837500563424
+    second: enemy01_idle_spritesheet_231
+  - first:
+      213: 3721309260263956086
+    second: enemy01_idle_spritesheet_232
+  - first:
+      213: 2811486369584154266
+    second: enemy01_idle_spritesheet_233
+  - first:
+      213: -4077209877772046375
+    second: enemy01_idle_spritesheet_234
+  - first:
+      213: 1364934281454978495
+    second: enemy01_idle_spritesheet_235
+  - first:
+      213: 1684871765463893803
+    second: enemy01_idle_spritesheet_236
+  - first:
+      213: 8509574440421295224
+    second: enemy01_idle_spritesheet_237
+  - first:
+      213: 5720685081012043920
+    second: enemy01_idle_spritesheet_238
+  - first:
+      213: -7726503817799512491
+    second: enemy01_idle_spritesheet_239
+  - first:
+      213: 4000227422334133064
+    second: enemy01_idle_spritesheet_240
+  - first:
+      213: -306613916503966934
+    second: enemy01_idle_spritesheet_241
+  - first:
+      213: 8573049353413885779
+    second: enemy01_idle_spritesheet_242
+  - first:
+      213: -3026441241532511047
+    second: enemy01_idle_spritesheet_243
+  - first:
+      213: 399343062693976956
+    second: enemy01_idle_spritesheet_244
+  - first:
+      213: 7984345661493815773
+    second: enemy01_idle_spritesheet_245
+  - first:
+      213: 1504447295318819649
+    second: enemy01_idle_spritesheet_246
+  - first:
+      213: 8459612640179189419
+    second: enemy01_idle_spritesheet_247
+  - first:
+      213: 1900384674952983812
+    second: enemy01_idle_spritesheet_248
+  - first:
+      213: -6033313259096788056
+    second: enemy01_idle_spritesheet_249
+  - first:
+      213: -5039977974881456119
+    second: enemy01_idle_spritesheet_250
+  - first:
+      213: -1084013173676165670
+    second: enemy01_idle_spritesheet_251
+  - first:
+      213: 2752072162314316339
+    second: enemy01_idle_spritesheet_252
+  - first:
+      213: -4996137230628689673
+    second: enemy01_idle_spritesheet_253
+  - first:
+      213: -143490164142145784
+    second: enemy01_idle_spritesheet_254
+  - first:
+      213: -163814246425979025
+    second: enemy01_idle_spritesheet_255
+  - first:
+      213: -2321206351880019836
+    second: enemy01_idle_spritesheet_256
+  - first:
+      213: 8321987057949704653
+    second: enemy01_idle_spritesheet_257
+  - first:
+      213: 3910609035813699517
+    second: enemy01_idle_spritesheet_258
+  - first:
+      213: -6516665028060277889
+    second: enemy01_idle_spritesheet_259
+  - first:
+      213: -4377729190947314561
+    second: enemy01_idle_spritesheet_260
+  - first:
+      213: 2258465989313264804
+    second: enemy01_idle_spritesheet_261
+  - first:
+      213: -5537050228106407674
+    second: enemy01_idle_spritesheet_262
+  - first:
+      213: -4240963731584077394
+    second: enemy01_idle_spritesheet_263
+  - first:
+      213: 4106704864964369290
+    second: enemy01_idle_spritesheet_264
+  - first:
+      213: -8720676918123410000
+    second: enemy01_idle_spritesheet_265
+  - first:
+      213: -1436690071447491364
+    second: enemy01_idle_spritesheet_266
+  - first:
+      213: -4153498283322399232
+    second: enemy01_idle_spritesheet_267
+  - first:
+      213: 3427249221811603840
+    second: enemy01_idle_spritesheet_268
+  - first:
+      213: 3866125147215704653
+    second: enemy01_idle_spritesheet_269
+  - first:
+      213: -8263379389906976049
+    second: enemy01_idle_spritesheet_270
+  - first:
+      213: -2798751478546181892
+    second: enemy01_idle_spritesheet_271
+  - first:
+      213: 4957995881454998565
+    second: enemy01_idle_spritesheet_272
+  - first:
+      213: 2428753174735509873
+    second: enemy01_idle_spritesheet_273
+  - first:
+      213: 6910147908486481147
+    second: enemy01_idle_spritesheet_274
+  - first:
+      213: -8028930023901334618
+    second: enemy01_idle_spritesheet_275
+  - first:
+      213: -8230572620461295228
+    second: enemy01_idle_spritesheet_276
+  - first:
+      213: 2741587097611161047
+    second: enemy01_idle_spritesheet_277
+  - first:
+      213: -8919906569760450492
+    second: enemy01_idle_spritesheet_278
+  - first:
+      213: -2772623584101261822
+    second: enemy01_idle_spritesheet_279
+  - first:
+      213: 3832230867049958811
+    second: enemy01_idle_spritesheet_280
+  - first:
+      213: -211379461001300535
+    second: enemy01_idle_spritesheet_281
+  - first:
+      213: 1779378765846044985
+    second: enemy01_idle_spritesheet_282
+  - first:
+      213: -5356244670151830226
+    second: enemy01_idle_spritesheet_283
+  - first:
+      213: -8250686220133193629
+    second: enemy01_idle_spritesheet_284
+  - first:
+      213: -6033468569180922880
+    second: enemy01_idle_spritesheet_285
+  - first:
+      213: -1873840214146895817
+    second: enemy01_idle_spritesheet_286
+  - first:
+      213: 8117547457779626032
+    second: enemy01_idle_spritesheet_287
+  - first:
+      213: 6492863704334922023
+    second: enemy01_idle_spritesheet_288
+  - first:
+      213: 1588416387932766824
+    second: enemy01_idle_spritesheet_289
+  - first:
+      213: 6622022197386983306
+    second: enemy01_idle_spritesheet_290
+  - first:
+      213: -5294311647753330083
+    second: enemy01_idle_spritesheet_291
+  - first:
+      213: -5003866921375080441
+    second: enemy01_idle_spritesheet_292
+  - first:
+      213: 1500175708078112733
+    second: enemy01_idle_spritesheet_293
+  - first:
+      213: -3968194073485394058
+    second: enemy01_idle_spritesheet_294
+  - first:
+      213: 7858444350409499299
+    second: enemy01_idle_spritesheet_295
+  - first:
+      213: 4649621745607687592
+    second: enemy01_idle_spritesheet_296
+  - first:
+      213: 3036336246631658690
+    second: enemy01_idle_spritesheet_297
+  - first:
+      213: -2898226881939979931
+    second: enemy01_idle_spritesheet_298
+  - first:
+      213: -3695991837154511787
+    second: enemy01_idle_spritesheet_299
+  - first:
+      213: -7044450819874198029
+    second: enemy01_idle_spritesheet_300
+  - first:
+      213: 5136108260961567572
+    second: enemy01_idle_spritesheet_301
+  - first:
+      213: 8771008508907266117
+    second: enemy01_idle_spritesheet_302
+  - first:
+      213: 2491691262687677249
+    second: enemy01_idle_spritesheet_303
+  - first:
+      213: 4638044943897648027
+    second: enemy01_idle_spritesheet_304
+  - first:
+      213: 5177503682300253908
+    second: enemy01_idle_spritesheet_305
+  - first:
+      213: 4442243900636258730
+    second: enemy01_idle_spritesheet_306
+  - first:
+      213: 5476289179838072787
+    second: enemy01_idle_spritesheet_307
+  - first:
+      213: 3152797675630825996
+    second: enemy01_idle_spritesheet_308
+  - first:
+      213: 7295954449278420840
+    second: enemy01_idle_spritesheet_309
+  - first:
+      213: 6475553266131962560
+    second: enemy01_idle_spritesheet_310
+  - first:
+      213: 680188798029533382
+    second: enemy01_idle_spritesheet_311
+  - first:
+      213: -5625890281927056080
+    second: enemy01_idle_spritesheet_312
+  - first:
+      213: -6376798173734661337
+    second: enemy01_idle_spritesheet_313
+  - first:
+      213: -3865534754695565008
+    second: enemy01_idle_spritesheet_314
+  - first:
+      213: 3646289568133309366
+    second: enemy01_idle_spritesheet_315
+  - first:
+      213: 1665193482268641129
+    second: enemy01_idle_spritesheet_316
+  - first:
+      213: 155020508216337006
+    second: enemy01_idle_spritesheet_317
+  - first:
+      213: -4991132001710857667
+    second: enemy01_idle_spritesheet_318
+  - first:
+      213: -1533232830341136926
+    second: enemy01_idle_spritesheet_319
+  - first:
+      213: -9219398186972011447
+    second: enemy01_idle_spritesheet_320
+  - first:
+      213: 3297249491274266333
+    second: enemy01_idle_spritesheet_321
+  - first:
+      213: -244770754181029374
+    second: enemy01_idle_spritesheet_322
+  - first:
+      213: -8456209476414132965
+    second: enemy01_idle_spritesheet_323
+  - first:
+      213: -4421997083330741811
+    second: enemy01_idle_spritesheet_324
+  - first:
+      213: -4523807209125754144
+    second: enemy01_idle_spritesheet_325
+  - first:
+      213: -6005120246913588480
+    second: enemy01_idle_spritesheet_326
+  - first:
+      213: 7727835815358048845
+    second: enemy01_idle_spritesheet_327
+  - first:
+      213: -4575079465202457094
+    second: enemy01_idle_spritesheet_328
+  - first:
+      213: -4923457851191498403
+    second: enemy01_idle_spritesheet_329
+  - first:
+      213: 498575098472245474
+    second: enemy01_idle_spritesheet_330
+  - first:
+      213: 6011214400764290350
+    second: enemy01_idle_spritesheet_331
+  - first:
+      213: -9159686170491773726
+    second: enemy01_idle_spritesheet_332
+  - first:
+      213: 320215628157155565
+    second: enemy01_idle_spritesheet_333
+  - first:
+      213: 3231730770522781151
+    second: enemy01_idle_spritesheet_334
+  - first:
+      213: 7876566017221858653
+    second: enemy01_idle_spritesheet_335
+  - first:
+      213: 2231720846086070229
+    second: enemy01_idle_spritesheet_336
+  - first:
+      213: -4068316704693071395
+    second: enemy01_idle_spritesheet_337
+  - first:
+      213: 4701238349278858722
+    second: enemy01_idle_spritesheet_338
+  - first:
+      213: 6088571094153166011
+    second: enemy01_idle_spritesheet_339
+  - first:
+      213: 8770130304008197120
+    second: enemy01_idle_spritesheet_340
+  - first:
+      213: 4502312367381732095
+    second: enemy01_idle_spritesheet_341
+  - first:
+      213: 2823678800674345956
+    second: enemy01_idle_spritesheet_342
+  - first:
+      213: 2707124337484711338
+    second: enemy01_idle_spritesheet_343
+  - first:
+      213: -8583433476666340299
+    second: enemy01_idle_spritesheet_344
+  - first:
+      213: 5586766071892849949
+    second: enemy01_idle_spritesheet_345
+  - first:
+      213: 1799926301093441586
+    second: enemy01_idle_spritesheet_346
+  - first:
+      213: -1601971328301039125
+    second: enemy01_idle_spritesheet_347
+  - first:
+      213: -5000707448977109327
+    second: enemy01_idle_spritesheet_348
+  - first:
+      213: -7103622091758373996
+    second: enemy01_idle_spritesheet_349
+  - first:
+      213: 3066783517242094378
+    second: enemy01_idle_spritesheet_350
+  - first:
+      213: 8962598429673640914
+    second: enemy01_idle_spritesheet_351
+  - first:
+      213: -5375360037862551926
+    second: enemy01_idle_spritesheet_352
+  - first:
+      213: 990678214851230258
+    second: enemy01_idle_spritesheet_353
+  - first:
+      213: 8828300057089575621
+    second: enemy01_idle_spritesheet_354
+  - first:
+      213: 5785712465810378460
+    second: enemy01_idle_spritesheet_355
+  - first:
+      213: 1814691253977763625
+    second: enemy01_idle_spritesheet_356
+  - first:
+      213: -720985750589839813
+    second: enemy01_idle_spritesheet_357
+  - first:
+      213: 1092013402449030287
+    second: enemy01_idle_spritesheet_358
+  - first:
+      213: -2786908939563726611
+    second: enemy01_idle_spritesheet_359
+  - first:
+      213: 8207070817824605868
+    second: enemy01_idle_spritesheet_360
+  - first:
+      213: 2804491435481045907
+    second: enemy01_idle_spritesheet_361
+  - first:
+      213: -2350948658196911621
+    second: enemy01_idle_spritesheet_362
+  - first:
+      213: -2278080307137184742
+    second: enemy01_idle_spritesheet_363
+  - first:
+      213: -5890344092872865739
+    second: enemy01_idle_spritesheet_364
+  - first:
+      213: 3578141486448466235
+    second: enemy01_idle_spritesheet_365
+  - first:
+      213: -2957061117585433082
+    second: enemy01_idle_spritesheet_366
+  - first:
+      213: 8459675280667890360
+    second: enemy01_idle_spritesheet_367
+  - first:
+      213: 1026395902985284673
+    second: enemy01_idle_spritesheet_368
+  - first:
+      213: -1023219286975979950
+    second: enemy01_idle_spritesheet_369
+  - first:
+      213: 4984454714649489065
+    second: enemy01_idle_spritesheet_370
+  - first:
+      213: -6993586390403167871
+    second: enemy01_idle_spritesheet_371
+  - first:
+      213: 178576608979824125
+    second: enemy01_idle_spritesheet_372
+  - first:
+      213: 288360294237601246
+    second: enemy01_idle_spritesheet_373
+  - first:
+      213: 6482029130014877282
+    second: enemy01_idle_spritesheet_374
+  - first:
+      213: 8940702202244105360
+    second: enemy01_idle_spritesheet_375
+  - first:
+      213: 7596627151728413106
+    second: enemy01_idle_spritesheet_376
+  - first:
+      213: 1144637716611319230
+    second: enemy01_idle_spritesheet_377
+  - first:
+      213: -8054070509638346070
+    second: enemy01_idle_spritesheet_378
+  - first:
+      213: -6901153020307136698
+    second: enemy01_idle_spritesheet_379
+  - first:
+      213: -5284190379239718745
+    second: enemy01_idle_spritesheet_380
+  - first:
+      213: 5270401245454145236
+    second: enemy01_idle_spritesheet_381
+  - first:
+      213: 6678459923225265096
+    second: enemy01_idle_spritesheet_382
+  - first:
+      213: 7821308620786407870
+    second: enemy01_idle_spritesheet_383
+  - first:
+      213: 9118741719416011293
+    second: enemy01_idle_spritesheet_384
+  - first:
+      213: 1602764341728061539
+    second: enemy01_idle_spritesheet_385
+  - first:
+      213: 4639808597492325072
+    second: enemy01_idle_spritesheet_386
+  - first:
+      213: -2830118389881486914
+    second: enemy01_idle_spritesheet_387
+  - first:
+      213: 5298232465559901475
+    second: enemy01_idle_spritesheet_388
+  - first:
+      213: -2378765205693602965
+    second: enemy01_idle_spritesheet_389
+  - first:
+      213: -2300885137525281297
+    second: enemy01_idle_spritesheet_390
+  - first:
+      213: -8467573874875622113
+    second: enemy01_idle_spritesheet_391
+  - first:
+      213: 2217306765827017206
+    second: enemy01_idle_spritesheet_392
+  - first:
+      213: -8663499390919373292
+    second: enemy01_idle_spritesheet_393
+  - first:
+      213: -8096383935155872934
+    second: enemy01_idle_spritesheet_394
+  - first:
+      213: -2756772308068454607
+    second: enemy01_idle_spritesheet_395
+  - first:
+      213: 2497645479072673354
+    second: enemy01_idle_spritesheet_396
+  - first:
+      213: 6814237661816165486
+    second: enemy01_idle_spritesheet_397
+  - first:
+      213: -2765017149940935088
+    second: enemy01_idle_spritesheet_398
+  - first:
+      213: -8860870168792959812
+    second: enemy01_idle_spritesheet_399
+  - first:
+      213: 364160135797860983
+    second: enemy01_idle_spritesheet_400
+  - first:
+      213: -7544906611211482224
+    second: enemy01_idle_spritesheet_401
+  - first:
+      213: -7344872296989488971
+    second: enemy01_idle_spritesheet_402
+  - first:
+      213: -1268723855126055614
+    second: enemy01_idle_spritesheet_403
+  - first:
+      213: 4555637037930010050
+    second: enemy01_idle_spritesheet_404
+  - first:
+      213: 2763640695494876829
+    second: enemy01_idle_spritesheet_405
+  - first:
+      213: -5774716204581039257
+    second: enemy01_idle_spritesheet_406
+  - first:
+      213: -5569200146463110008
+    second: enemy01_idle_spritesheet_407
+  - first:
+      213: 4816858610371429133
+    second: enemy01_idle_spritesheet_408
+  - first:
+      213: 6333752559678203848
+    second: enemy01_idle_spritesheet_409
+  - first:
+      213: -8870009015486144125
+    second: enemy01_idle_spritesheet_410
+  - first:
+      213: 9124850807827505984
+    second: enemy01_idle_spritesheet_411
+  - first:
+      213: 1312757087501630212
+    second: enemy01_idle_spritesheet_412
+  - first:
+      213: 5787200412544301999
+    second: enemy01_idle_spritesheet_413
+  - first:
+      213: 8505683831996598627
+    second: enemy01_idle_spritesheet_414
+  - first:
+      213: -8162888498513297064
+    second: enemy01_idle_spritesheet_415
+  - first:
+      213: 5927748798807600469
+    second: enemy01_idle_spritesheet_416
+  - first:
+      213: -3794840038423828702
+    second: enemy01_idle_spritesheet_417
+  - first:
+      213: 1644092137190546750
+    second: enemy01_idle_spritesheet_418
+  - first:
+      213: 6698277404677450344
+    second: enemy01_idle_spritesheet_419
+  - first:
+      213: 8753959233696446055
+    second: enemy01_idle_spritesheet_420
+  - first:
+      213: -2357297457141232891
+    second: enemy01_idle_spritesheet_421
+  - first:
+      213: 3978327634073315663
+    second: enemy01_idle_spritesheet_422
+  - first:
+      213: 2313230297800367039
+    second: enemy01_idle_spritesheet_423
+  - first:
+      213: -3459260050149326773
+    second: enemy01_idle_spritesheet_424
+  - first:
+      213: 3864886999185269711
+    second: enemy01_idle_spritesheet_425
+  - first:
+      213: -1902091670239580669
+    second: enemy01_idle_spritesheet_426
+  - first:
+      213: -8130995558907772937
+    second: enemy01_idle_spritesheet_427
+  - first:
+      213: -1291390399771610173
+    second: enemy01_idle_spritesheet_428
+  - first:
+      213: -1339666291015601867
+    second: enemy01_idle_spritesheet_429
+  - first:
+      213: 4373273960381277181
+    second: enemy01_idle_spritesheet_430
+  - first:
+      213: 252093183907415022
+    second: enemy01_idle_spritesheet_431
+  - first:
+      213: -2951176533986035726
+    second: enemy01_idle_spritesheet_432
+  - first:
+      213: 7190129605196156367
+    second: enemy01_idle_spritesheet_433
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -271,9 +1465,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 1792
-        width: 694
-        height: 256
+        y: 896
+        width: 347
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -291,10 +1485,10 @@ TextureImporter:
       name: enemy01_idle_spritesheet_1
       rect:
         serializedVersion: 2
-        x: 694
-        y: 1792
-        width: 694
-        height: 256
+        x: 347
+        y: 896
+        width: 347
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -312,10 +1506,10 @@ TextureImporter:
       name: enemy01_idle_spritesheet_2
       rect:
         serializedVersion: 2
-        x: 1388
-        y: 1792
-        width: 694
-        height: 256
+        x: 694
+        y: 896
+        width: 347
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -333,10 +1527,10 @@ TextureImporter:
       name: enemy01_idle_spritesheet_3
       rect:
         serializedVersion: 2
-        x: 2082
-        y: 1792
-        width: 694
-        height: 256
+        x: 1041
+        y: 896
+        width: 347
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -354,10 +1548,10 @@ TextureImporter:
       name: enemy01_idle_spritesheet_4
       rect:
         serializedVersion: 2
-        x: 2776
-        y: 1792
-        width: 694
-        height: 256
+        x: 1388
+        y: 896
+        width: 347
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -375,10 +1569,10 @@ TextureImporter:
       name: enemy01_idle_spritesheet_5
       rect:
         serializedVersion: 2
-        x: 3470
-        y: 1792
-        width: 694
-        height: 256
+        x: 1735
+        y: 896
+        width: 347
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -397,9 +1591,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 1536
-        width: 694
-        height: 256
+        y: 768
+        width: 347
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -417,10 +1611,10 @@ TextureImporter:
       name: enemy01_idle_spritesheet_7
       rect:
         serializedVersion: 2
-        x: 694
-        y: 1536
-        width: 694
-        height: 256
+        x: 347
+        y: 768
+        width: 347
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -438,10 +1632,10 @@ TextureImporter:
       name: enemy01_idle_spritesheet_8
       rect:
         serializedVersion: 2
-        x: 1388
-        y: 1536
-        width: 694
-        height: 256
+        x: 694
+        y: 768
+        width: 347
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -459,10 +1653,10 @@ TextureImporter:
       name: enemy01_idle_spritesheet_9
       rect:
         serializedVersion: 2
-        x: 2082
-        y: 1536
-        width: 694
-        height: 256
+        x: 1041
+        y: 768
+        width: 347
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -480,10 +1674,10 @@ TextureImporter:
       name: enemy01_idle_spritesheet_10
       rect:
         serializedVersion: 2
-        x: 2776
-        y: 1536
-        width: 694
-        height: 256
+        x: 1388
+        y: 768
+        width: 347
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -501,10 +1695,10 @@ TextureImporter:
       name: enemy01_idle_spritesheet_11
       rect:
         serializedVersion: 2
-        x: 3470
-        y: 1536
-        width: 694
-        height: 256
+        x: 1735
+        y: 768
+        width: 347
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -523,9 +1717,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 1280
-        width: 694
-        height: 256
+        y: 640
+        width: 347
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -543,10 +1737,10 @@ TextureImporter:
       name: enemy01_idle_spritesheet_13
       rect:
         serializedVersion: 2
-        x: 694
-        y: 1280
-        width: 694
-        height: 256
+        x: 347
+        y: 640
+        width: 347
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -564,10 +1758,10 @@ TextureImporter:
       name: enemy01_idle_spritesheet_14
       rect:
         serializedVersion: 2
-        x: 1388
-        y: 1280
-        width: 694
-        height: 256
+        x: 694
+        y: 640
+        width: 347
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -585,10 +1779,10 @@ TextureImporter:
       name: enemy01_idle_spritesheet_15
       rect:
         serializedVersion: 2
-        x: 2082
-        y: 1280
-        width: 694
-        height: 256
+        x: 1041
+        y: 640
+        width: 347
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -606,10 +1800,10 @@ TextureImporter:
       name: enemy01_idle_spritesheet_16
       rect:
         serializedVersion: 2
-        x: 2776
-        y: 1280
-        width: 694
-        height: 256
+        x: 1388
+        y: 640
+        width: 347
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -627,10 +1821,10 @@ TextureImporter:
       name: enemy01_idle_spritesheet_17
       rect:
         serializedVersion: 2
-        x: 3470
-        y: 1280
-        width: 694
-        height: 256
+        x: 1735
+        y: 640
+        width: 347
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -649,9 +1843,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 1024
-        width: 694
-        height: 256
+        y: 512
+        width: 347
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -669,10 +1863,10 @@ TextureImporter:
       name: enemy01_idle_spritesheet_19
       rect:
         serializedVersion: 2
-        x: 694
-        y: 1024
-        width: 694
-        height: 256
+        x: 347
+        y: 512
+        width: 347
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -690,10 +1884,10 @@ TextureImporter:
       name: enemy01_idle_spritesheet_20
       rect:
         serializedVersion: 2
-        x: 1388
-        y: 1024
-        width: 694
-        height: 256
+        x: 694
+        y: 512
+        width: 347
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -711,10 +1905,10 @@ TextureImporter:
       name: enemy01_idle_spritesheet_21
       rect:
         serializedVersion: 2
-        x: 2082
-        y: 1024
-        width: 694
-        height: 256
+        x: 1041
+        y: 512
+        width: 347
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -732,10 +1926,10 @@ TextureImporter:
       name: enemy01_idle_spritesheet_22
       rect:
         serializedVersion: 2
-        x: 2776
-        y: 1024
-        width: 694
-        height: 256
+        x: 1388
+        y: 512
+        width: 347
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -753,10 +1947,10 @@ TextureImporter:
       name: enemy01_idle_spritesheet_23
       rect:
         serializedVersion: 2
-        x: 3470
-        y: 1024
-        width: 694
-        height: 256
+        x: 1735
+        y: 512
+        width: 347
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -771,76 +1965,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemy01_idle_spritesheet_24
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 768
-        width: 694
-        height: 256
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4f400ae9e34b574b0800000000000000
-      internalID: -5443246393565117196
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: enemy01_idle_spritesheet_25
-      rect:
-        serializedVersion: 2
-        x: 694
-        y: 768
-        width: 694
-        height: 256
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f9c40ac8d92753e40800000000000000
-      internalID: 5635536529718791327
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: enemy01_idle_spritesheet_26
-      rect:
-        serializedVersion: 2
-        x: 1388
-        y: 768
-        width: 694
-        height: 256
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 30bad6ee76f42eb10800000000000000
-      internalID: 2009255691561052931
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: enemy01_idle_spritesheet_27
       rect:
         serializedVersion: 2
-        x: 2082
-        y: 768
-        width: 694
-        height: 256
+        x: 1041
+        y: 384
+        width: 347
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -858,10 +1989,10 @@ TextureImporter:
       name: enemy01_idle_spritesheet_28
       rect:
         serializedVersion: 2
-        x: 2776
-        y: 768
-        width: 694
-        height: 256
+        x: 1388
+        y: 384
+        width: 347
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -879,10 +2010,10 @@ TextureImporter:
       name: enemy01_idle_spritesheet_29
       rect:
         serializedVersion: 2
-        x: 3470
-        y: 768
-        width: 694
-        height: 256
+        x: 1735
+        y: 384
+        width: 347
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -897,76 +2028,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemy01_idle_spritesheet_30
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 512
-        width: 694
-        height: 256
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b85c6d542f1345670800000000000000
-      internalID: 8526494911142741387
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: enemy01_idle_spritesheet_31
-      rect:
-        serializedVersion: 2
-        x: 694
-        y: 512
-        width: 694
-        height: 256
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3dc6546b6189f5a60800000000000000
-      internalID: 7665012314122579155
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: enemy01_idle_spritesheet_32
-      rect:
-        serializedVersion: 2
-        x: 1388
-        y: 512
-        width: 694
-        height: 256
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e83382161aeb7e980800000000000000
-      internalID: -8509623370564226162
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: enemy01_idle_spritesheet_33
       rect:
         serializedVersion: 2
-        x: 2082
-        y: 512
-        width: 694
-        height: 256
+        x: 1041
+        y: 256
+        width: 347
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -984,10 +2052,10 @@ TextureImporter:
       name: enemy01_idle_spritesheet_34
       rect:
         serializedVersion: 2
-        x: 2776
-        y: 512
-        width: 694
-        height: 256
+        x: 1388
+        y: 256
+        width: 347
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1005,10 +2073,10 @@ TextureImporter:
       name: enemy01_idle_spritesheet_35
       rect:
         serializedVersion: 2
-        x: 3470
-        y: 512
-        width: 694
-        height: 256
+        x: 1735
+        y: 256
+        width: 347
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1023,76 +2091,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemy01_idle_spritesheet_36
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 256
-        width: 694
-        height: 256
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5ace231046371d620800000000000000
-      internalID: 2797143716927827109
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: enemy01_idle_spritesheet_37
-      rect:
-        serializedVersion: 2
-        x: 694
-        y: 256
-        width: 694
-        height: 256
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4767a0d4f38d57cc0800000000000000
-      internalID: -3713824551310035340
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: enemy01_idle_spritesheet_38
-      rect:
-        serializedVersion: 2
-        x: 1388
-        y: 256
-        width: 694
-        height: 256
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 941de5dda39b6e0c0800000000000000
-      internalID: -4546743111310716599
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: enemy01_idle_spritesheet_39
       rect:
         serializedVersion: 2
-        x: 2082
-        y: 256
-        width: 694
-        height: 256
+        x: 1041
+        y: 128
+        width: 347
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1110,10 +2115,10 @@ TextureImporter:
       name: enemy01_idle_spritesheet_40
       rect:
         serializedVersion: 2
-        x: 2776
-        y: 256
-        width: 694
-        height: 256
+        x: 1388
+        y: 128
+        width: 347
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1131,10 +2136,10 @@ TextureImporter:
       name: enemy01_idle_spritesheet_41
       rect:
         serializedVersion: 2
-        x: 3470
-        y: 256
-        width: 694
-        height: 256
+        x: 1735
+        y: 128
+        width: 347
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1149,76 +2154,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemy01_idle_spritesheet_42
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 694
-        height: 256
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5a0f2b0200d76afc0800000000000000
-      internalID: -3483959822222430043
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: enemy01_idle_spritesheet_43
-      rect:
-        serializedVersion: 2
-        x: 694
-        y: 0
-        width: 694
-        height: 256
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2f22a30b5beacf3b0800000000000000
-      internalID: -5477310951420452110
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: enemy01_idle_spritesheet_44
-      rect:
-        serializedVersion: 2
-        x: 1388
-        y: 0
-        width: 694
-        height: 256
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c92ad1e2791852150800000000000000
-      internalID: 5847222177524195996
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: enemy01_idle_spritesheet_45
       rect:
         serializedVersion: 2
-        x: 2082
+        x: 1041
         y: 0
-        width: 694
-        height: 256
+        width: 347
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1236,10 +2178,10 @@ TextureImporter:
       name: enemy01_idle_spritesheet_46
       rect:
         serializedVersion: 2
-        x: 2776
+        x: 1388
         y: 0
-        width: 694
-        height: 256
+        width: 347
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1257,10 +2199,10 @@ TextureImporter:
       name: enemy01_idle_spritesheet_47
       rect:
         serializedVersion: 2
-        x: 3470
+        x: 1735
         y: 0
-        width: 694
-        height: 256
+        width: 347
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1270,6 +2212,258 @@ TextureImporter:
       bones: []
       spriteID: 6d3d4ec3415d0b100800000000000000
       internalID: 121831472836694998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy01_idle_spritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 347
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f89845fe109079f20800000000000000
+      internalID: 3429219545180834191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy01_idle_spritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 384
+        width: 347
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dffa0deb4d043c40800000000000000
+      internalID: 5491028465422106585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy01_idle_spritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 384
+        width: 347
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 131e3837d0c8ed140800000000000000
+      internalID: 4746385046695567665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy01_idle_spritesheet_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 347
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 282267a6df2d08ff0800000000000000
+      internalID: -35796811164278142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy01_idle_spritesheet_31
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 256
+        width: 347
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87e04d0e58ad00e00800000000000000
+      internalID: 1009046585068490360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy01_idle_spritesheet_32
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 256
+        width: 347
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ad0583929c417e60800000000000000
+      internalID: 7958226208964283810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy01_idle_spritesheet_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 347
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4c3147fb4418b090800000000000000
+      internalID: -8018636820029817779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy01_idle_spritesheet_37
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 128
+        width: 347
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca9861ed5e6fe6160800000000000000
+      internalID: 7020820336251144620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy01_idle_spritesheet_38
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 128
+        width: 347
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64c2cd5653dff3530800000000000000
+      internalID: 3837063813326974022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy01_idle_spritesheet_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 347
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50a8835b7213cc6e0800000000000000
+      internalID: -1816022503123285499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy01_idle_spritesheet_43
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 0
+        width: 347
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a537546c1a9109fc0800000000000000
+      internalID: -3490261528605265062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy01_idle_spritesheet_44
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 0
+        width: 347
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf685f82f7acf8890800000000000000
+      internalID: -7453516210778044676
       vertices: []
       indices: 
       edges: []
