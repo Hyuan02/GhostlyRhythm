@@ -15,14 +15,14 @@ public class ParallaxBackground : MonoBehaviour
 
     }
 
-    void Update()
+    void FixedUpdate()
     {
     	float temp = (cam.transform.position.x * (1 - parallaxEffect));
         float dist = (cam.transform.position.x * parallaxEffect);
 
         transform.position = new Vector3(startpos + dist, transform.position.y, transform.position.z);
 
-        if (temp > (startpos + length - 8.9f)) startpos += length - (8.9f * 2);
-        else if (temp < (startpos - length - 8.9f)) startpos -= length - (8.9f * 2);
+        if (temp > startpos + length) startpos += length;
+        else if (temp < startpos - length) startpos -= length;
     }
 }
