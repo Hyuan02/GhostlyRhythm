@@ -4,12 +4,17 @@ using UnityEngine;
 using UnityEngine.Events;
 
 
+[System.Serializable]
+public class TouchPressEvent: UnityEvent<float, float>
+{
+}
+
 public class SwipeManager : MonoBehaviour
 {
     #region "PRIVATE_ENUMS"
 
-    protected enum SwipeDirection{
-        UP,DOWN,LEFT,RIGHT, NONE
+    protected enum SwipeDirection {
+        UP, DOWN, LEFT, RIGHT, NONE
     }
 
     protected enum TouchState
@@ -45,6 +50,8 @@ public class SwipeManager : MonoBehaviour
     UnityEvent onUpTouch = new UnityEvent();
     [SerializeField]
     UnityEvent onDownTouch = new UnityEvent();
+    [SerializeField]
+    TouchPressEvent onTouchPressed = new TouchPressEvent();
     #endregion
 
     #region "CUSTOMIZABLE_PROPERTIES"
@@ -90,37 +97,37 @@ public class SwipeManager : MonoBehaviour
                 //swipe upwards
                 if (currentSwipe.y > 0 && (currentSwipe.x > -0.5f && currentSwipe.x < 0.5f))
                 {
-                    if(currentDirection != SwipeDirection.UP)
+                    if (currentDirection != SwipeDirection.UP)
                     {
                         onUpTouch.Invoke();
                         currentDirection = SwipeDirection.UP;
                     }
-                    
+
                 }
                 //swipe down
                 if (currentSwipe.y < 0 && (currentSwipe.x > -0.5f && currentSwipe.x < 0.5f))
                 {
-                    if(currentDirection != SwipeDirection.DOWN)
+                    if (currentDirection != SwipeDirection.DOWN)
                     {
                         onDownTouch.Invoke();
                         currentDirection = SwipeDirection.DOWN;
                     }
-                    
+
                 }
                 //swipe left
                 if (currentSwipe.x < 0 && (currentSwipe.y > -0.5f && currentSwipe.y < 0.5f))
                 {
-                    if(currentDirection != SwipeDirection.LEFT)
+                    if (currentDirection != SwipeDirection.LEFT)
                     {
                         onLeftTouch.Invoke();
                         currentDirection = SwipeDirection.LEFT;
                     }
-                    
+
                 }
                 //swipe right
                 if (currentSwipe.x > 0 && (currentSwipe.y > -0.5f && currentSwipe.y < 0.5f))
                 {
-                    if(currentDirection != SwipeDirection.RIGHT)
+                    if (currentDirection != SwipeDirection.RIGHT)
                     {
                         onRightTouch.Invoke();
                         currentDirection = SwipeDirection.RIGHT;
@@ -132,7 +139,7 @@ public class SwipeManager : MonoBehaviour
 
     public void MouseSwipe()
     {
-        
+
         if (Input.GetMouseButtonDown(0))
         {
             //save began touch 2d point
@@ -164,27 +171,27 @@ public class SwipeManager : MonoBehaviour
                     onUpTouch.Invoke();
                     currentDirection = SwipeDirection.UP;
                 }
-                    
+
             }
             //swipe down
             if (currentSwipe.y < 0 && currentSwipe.x > -0.5f && currentSwipe.x < 0.5f)
             {
-                if(currentDirection != SwipeDirection.DOWN)
+                if (currentDirection != SwipeDirection.DOWN)
                 {
                     onDownTouch.Invoke();
                     currentDirection = SwipeDirection.DOWN;
                 }
-                
+
             }
             //swipe left
             if (currentSwipe.x < 0 && currentSwipe.y > -0.5f && currentSwipe.y < 0.5f)
             {
-                if(currentDirection != SwipeDirection.LEFT)
+                if (currentDirection != SwipeDirection.LEFT)
                 {
                     onLeftTouch.Invoke();
                     currentDirection = SwipeDirection.LEFT;
                 }
-                
+
             }
             //swipe right
             if (currentSwipe.x > 0 && currentSwipe.y > -0.5f && currentSwipe.y < 0.5f)
@@ -197,6 +204,31 @@ public class SwipeManager : MonoBehaviour
             }
         }
     }
+
+    public void OnDuringTouchMouse()
+    {
+        if (Input.GetMouseButton(0))
+        {
+            var pointConverted = mainCamera.ScreenToWorldPoint(Input.mousePosition); 
+            onTouchPressed.Invoke(pointConverted.x, pointConverted.y);
+        }
+    }
+
+
+    public void OnDuringTouch()
+    {
+        if(Input.touches.Length > 0)
+        {
+            Touch t = Input.GetTouch(0);
+            if(t.phase != TouchPhase.Ended)
+            {
+                var pointConverted = mainCamera.ScreenToWorldPoint(t.position);
+                onTouchPressed.Invoke(pointConverted.x, pointConverted.y);
+            }
+        }
+    }
+
+
 
     private void ResetDirectionCounter()
     {
@@ -253,11 +285,13 @@ public class SwipeManager : MonoBehaviour
     {
         if (Input.touchSupported)
         {
-            Swipe();
+            //Swipe();
+            OnDuringTouch();
         }
         else if (Input.mousePresent)
         {
-            MouseSwipe();
+            //MouseSwipe();
+            OnDuringTouchMouse();
         }
         ResetDirectionCounter();
         CountTimeOnScreen();
