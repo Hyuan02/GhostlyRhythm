@@ -874,7 +874,7 @@ public class EnemySpawner : MonoBehaviour
         var random_or_follow_player = Random.Range(0f, 1f);
         float enemyY;
 
-        if (random_or_follow_player > 0.5)
+        if (random_or_follow_player > 0.65)
         {
             var random_or_probable = Random.Range(0f, 1f);
             if (random_or_probable > 0.60)

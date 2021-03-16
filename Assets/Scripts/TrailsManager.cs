@@ -71,5 +71,16 @@ public class TrailsManager : MonoBehaviour
         }
         return null;
     }
+
+    public Trail OccupyTrailThroughPoint(float pointY)
+    {
+       var trailSelected = trailsOfGame.FindIndex(e =>
+        {
+            return pointY <= e.trailObject.transform.position.y + 1.5 &&
+            pointY >= e.trailObject.transform.position.y - 1.5; 
+        });
+
+        return OccupyTrail(trailSelected);
+    }
 }
 
