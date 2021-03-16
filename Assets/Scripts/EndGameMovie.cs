@@ -8,23 +8,14 @@ using UnityEngine.SceneManagement;
 public class EndGameMovie : MonoBehaviour
 {
     VideoPlayer actualPlayer;
-    bool activated = false;
     private void Start()
     {
         actualPlayer = GetComponent<VideoPlayer>();
+        actualPlayer.loopPointReached += ChangeToInitScene; 
         
     }
 
-    private void Update()
-    {
-        if(actualPlayer.time >= actualPlayer.clip.length && !activated)
-        {
-            activated = true;
-            ChangeToInitScene();
-        }
-    }
-
-    private void ChangeToInitScene()
+    private void ChangeToInitScene(VideoPlayer vp)
     {
         SceneManager.LoadSceneAsync(0, LoadSceneMode.Single);
     }
