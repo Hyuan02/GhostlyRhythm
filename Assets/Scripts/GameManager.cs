@@ -22,7 +22,7 @@ public class GameManager : MonoBehaviour
     private GameObject player = null;
     [SerializeField]
     private AudioSource mainMusic = null;
-    [Range(0f, 40f)]
+    [Range(0f, 100f)]
     [SerializeField]
     private float timeOfMusicToStart = 0.0f;
     [SerializeField]
@@ -59,6 +59,10 @@ public static IEnumerator StartFade(AudioSource audioSource, float duration, flo
 
     public void RestartGame()
     {
+        this.player.GetComponent<ColliderWatcher>().starsRemaining = 3;
+        this.player.GetComponent<ColliderWatcher>().stars[0].sprite = this.player.GetComponent<ColliderWatcher>().ActiveStar;
+        this.player.GetComponent<ColliderWatcher>().stars[1].sprite = this.player.GetComponent<ColliderWatcher>().ActiveStar;
+        this.player.GetComponent<ColliderWatcher>().stars[2].sprite = this.player.GetComponent<ColliderWatcher>().ActiveStar;
         
         mainMusic.volume = 1;
         if (mainMusic)
