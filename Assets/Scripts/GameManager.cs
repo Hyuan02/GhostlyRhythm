@@ -10,6 +10,8 @@ public class GameManager : MonoBehaviour
 {
     public int score = 0;
 
+    public int starsRemaining = 3;
+
     public static GameManager instance;
 
     [SerializeField]
@@ -27,6 +29,8 @@ public class GameManager : MonoBehaviour
     private float timeOfMusicToStart = 0.0f;
     [SerializeField]
     private EnemySpawner spawner = null;
+    [SerializeField]
+    public Image[] stars;
 
     private void Awake()
     {
@@ -37,6 +41,7 @@ public class GameManager : MonoBehaviour
     {
         Time.timeScale = 1;
         PlayerPrefs.SetString("FadeSound", "false");
+        starsRemaining = 3;
     }
 
 
@@ -59,10 +64,12 @@ public static IEnumerator StartFade(AudioSource audioSource, float duration, flo
 
     public void RestartGame()
     {
-        this.player.GetComponent<ColliderWatcher>().starsRemaining = 3;
-        this.player.GetComponent<ColliderWatcher>().stars[0].sprite = this.player.GetComponent<ColliderWatcher>().ActiveStar;
-        this.player.GetComponent<ColliderWatcher>().stars[1].sprite = this.player.GetComponent<ColliderWatcher>().ActiveStar;
-        this.player.GetComponent<ColliderWatcher>().stars[2].sprite = this.player.GetComponent<ColliderWatcher>().ActiveStar;
+        starsRemaining = 3;
+        stars.ToList().ForEach(e =>
+        {
+            e.GetComponent<StarAnimator>().ChangeSpriteToActive();
+            e.GetComponent<Animator>().Play("Idle");
+        });
         
         mainMusic.volume = 1;
         if (mainMusic)
@@ -144,5 +151,11 @@ public static IEnumerator StartFade(AudioSource audioSource, float duration, flo
         {
             DestroyImmediate(enemies[i]);
         }
+    }
+
+
+    public void LoseStar()
+    {
+        stars[starsRemaining].GetComponent<StarAnimator>().PlayDisableAnimation();
     }
 }

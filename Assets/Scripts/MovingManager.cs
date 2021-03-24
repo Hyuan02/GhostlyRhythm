@@ -14,8 +14,8 @@ public class MovingManager : MonoBehaviour
     private Trail currentTrail = null;
     private float currentY;
 
-    private const float MIN_Y = -4.25f;
-    private const float MAX_Y = 4.25f;
+    private const float MIN_Y = -4.0f;
+    private const float MAX_Y = 4.0f;
 
 
     #endregion

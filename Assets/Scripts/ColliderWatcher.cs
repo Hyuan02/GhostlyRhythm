@@ -5,21 +5,20 @@ using UnityEngine.UI;
 
 public class ColliderWatcher : MonoBehaviour
 {
-	public Sprite ActiveStar;
-	public Sprite InactiveStar;
-	public Image[] stars;
-	public int starsRemaining;
+	
+	
+	
 
 	public void LoseStar()
 	{
 		//Diminui o numero de estrelas
-		starsRemaining--;
+		GameManager.instance.starsRemaining--;
 
-		//Trocar sprite da estrela perdida
-		stars[starsRemaining].sprite = InactiveStar;
+        //Trocar sprite da estrela perdida
+        GameManager.instance.LoseStar();
 
 		//Se perder todas as estrelas, fim de jogo.
-		if(starsRemaining == 0)
+		if(GameManager.instance.starsRemaining <= 0)
 		{
 			GameManager.instance.CallGameOver();
             this.gameObject.SetActive(false);
@@ -31,7 +30,6 @@ public class ColliderWatcher : MonoBehaviour
        // Debug.Log("Game Over");
         if (collision.CompareTag("Enemy"))
         {
-            
             LoseStar();
         }
     }
