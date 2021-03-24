@@ -10,7 +10,7 @@ public class AudioConfigLoader : MonoBehaviour
     private void Awake()
     {
         var audioSource = GetComponent<AudioSource>();
-        audioSource.volume = PlayerPrefs.GetInt("AudioMode", 1) + 1f ;
+        audioSource.volume = PlayerPrefs.GetInt("AudioMode", 1);
     }
     // Start is called before the first frame update
     void Start()

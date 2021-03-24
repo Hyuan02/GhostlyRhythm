@@ -7,6 +7,6 @@ public class LevelMenuScript : MonoBehaviour
 {
 	public void PlayLevelOne()
    {
-   		SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-   }
+        SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().buildIndex + 1);
+    }
 }
