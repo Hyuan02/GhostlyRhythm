@@ -7,7 +7,7 @@ using UnityEngine.UI;
 public class MenuManager : MonoBehaviour
 {
     [SerializeField]
-    Toggle audioToggle = null;
+    List<Toggle> audioToggles = null;
     [SerializeField]
     AudioSource mainSource = null;
     int currentmode = 1;
@@ -17,7 +17,7 @@ public class MenuManager : MonoBehaviour
 
        Time.timeScale = 1f;
        currentmode = PlayerPrefs.GetInt("AudioMode", 1);
-       audioToggle.isOn = currentmode == 0 ? true : false;
+       audioToggles.ForEach(e=>e.isOn = currentmode == 0 ? true : false);
     }
 
     // Update is called once per frame
@@ -31,16 +31,28 @@ public class MenuManager : MonoBehaviour
         SceneManager.LoadSceneAsync(1, LoadSceneMode.Single);
     }
 
-    public void ChangeAudioMode()
+    public void ChangeAudioMode(int toggle)
     {
-        PlayerPrefs.SetInt("AudioMode", audioToggle.isOn ? 0 : 1);
+
+        PlayerPrefs.SetInt("AudioMode", audioToggles[toggle].isOn ? 0 : 1);
         if(mainSource)
-            mainSource.volume = audioToggle.isOn ? 0 : 1;
+            mainSource.volume = audioToggles[toggle].isOn ? 0 : 1;
+
+        bool currentValue = audioToggles[toggle].isOn;
+        audioToggles.ForEach(e =>
+        {
+            e.isOn = currentValue;
+        });
     }
     
     public void ExitApplication()
     {
         Application.Quit();
+    }
+
+    public void PlayLevelOne()
+    {
+        SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
 
