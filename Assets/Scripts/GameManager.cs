@@ -10,12 +10,16 @@ public class GameManager : MonoBehaviour
 {
     public int score = 0;
 
+    public int starsTotal = 0;
+
     public int starsRemaining = 3;
 
     public static GameManager instance;
 
     [SerializeField]
     private Text scoreText = null;
+    [SerializeField]
+    private Text starsText = null;
     [SerializeField]
     private Text gameOverScoreText = null;
     [SerializeField]
@@ -31,6 +35,8 @@ public class GameManager : MonoBehaviour
     private EnemySpawner spawner = null;
     [SerializeField]
     public Image[] stars;
+
+
 
     private void Awake()
     {
@@ -118,6 +124,18 @@ public static IEnumerator StartFade(AudioSource audioSource, float duration, flo
 
     public void ChangeToMenuScene()
     {
+
+        Scene scene = SceneManager.GetActiveScene();
+        if(scene.buildIndex == 1)
+        {
+             PlayerPrefs.SetInt("stars1", starsRemaining);
+        }
+
+        if(scene.buildIndex == 2)
+        {
+             PlayerPrefs.SetInt("stars2", starsRemaining);
+        }
+
         SceneManager.LoadSceneAsync(0);
     }
 

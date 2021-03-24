@@ -1631,13 +1631,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9f28749052af91b4f9806614c3fe91f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ActiveStar: {fileID: 21300000, guid: 1c94b7ac78220b64693554a05f6c07a1, type: 3}
-  InactiveStar: {fileID: 21300000, guid: bf1be031797d0464f9ca62fab812c301, type: 3}
-  stars:
-  - {fileID: 241006436}
-  - {fileID: 549203421}
-  - {fileID: 2127144922}
-  starsRemaining: 3
 --- !u!58 &915772865
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -2017,13 +2010,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   score: 0
+  starsTotal: 0
+  starsRemaining: 3
   scoreText: {fileID: 0}
+  starsText: {fileID: 0}
   gameOverScoreText: {fileID: 0}
   gameOverScreen: {fileID: 1769070886}
   player: {fileID: 915772863}
   mainMusic: {fileID: 347912555}
   timeOfMusicToStart: 12.3
   spawner: {fileID: 347912554}
+  stars: []
 --- !u!114 &968737253
 MonoBehaviour:
   m_ObjectHideFlags: 0

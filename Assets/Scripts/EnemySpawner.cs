@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using System.Linq;
+using UnityEngine.SceneManagement;
 
 public class EnemySpawner : MonoBehaviour
 {
@@ -47,7 +48,7 @@ public class EnemySpawner : MonoBehaviour
       87.9f, 88.7f, 89.0f, 89.1f, 89.3f, 89.5f, 89.9f, 90.4f, 90.8f, 91.0f,
       91.2f, 92.0f, 92.3f, 92.6f, 92.8f, 93.6f, 94.0f, 94.3f, 94.5f, 94.9f,
       95.3f, 95.6f, 95.9f, 96.1f, 96.9f, 97.2f, 97.5f, 97.8f, 98.2f, 98.6f,
-      98.9f, 99.2f, 99.4f, 100.2f, 100.5f, 100.8f, 101.0, 101.9f, 102.2f, 102.5f,
+      98.9f, 99.2f, 99.4f, 100.2f, 100.5f, 100.8f, 101.0f, 101.9f, 102.2f, 102.5f,
       102.7f, 103.5f, 103.8f, 104.1f, 104.3f, 104.9f, 105.2f, 105.5f, 105.8f, 106f,
       106.8f, 107.1f, 107.4f, 107.6f, 108f, 108.4f, 108.7f, 109.1f, 109.3f, 110.1f,
       110.4f, 110.7f, 110.9f, 111.3f, 111.7f, 112f, 112.3f, 112.6f, 113.4f, 113.7f,
