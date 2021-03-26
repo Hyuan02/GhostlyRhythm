@@ -139,6 +139,26 @@ public static IEnumerator StartFade(AudioSource audioSource, float duration, flo
         SceneManager.LoadSceneAsync(0);
     }
 
+
+    public void ChangeScenes()
+    {
+
+        Scene scene = SceneManager.GetActiveScene();
+        if(scene.buildIndex == 1)
+        {
+             SceneManager.LoadSceneAsync(2);
+        }
+
+        if(scene.buildIndex == 2)
+        {
+             SceneManager.LoadSceneAsync(0);
+        }
+
+        
+    }
+
+
+
     void UpdateScore()
     {
         if(scoreText)
@@ -174,6 +194,6 @@ public static IEnumerator StartFade(AudioSource audioSource, float duration, flo
 
     public void LoseStar()
     {
-        stars[starsRemaining].GetComponent<StarAnimator>().PlayDisableAnimation();
+       stars[starsRemaining].GetComponent<StarAnimator>().PlayDisableAnimation();
     }
 }

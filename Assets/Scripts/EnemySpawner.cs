@@ -27,7 +27,7 @@ public class EnemySpawner : MonoBehaviour
     float contadorSpawn1 = 62f;
     float contadorSpawn2 = 70.5f;
     float contadorSpawn3 = 79f;
-    private int cena = 1;
+   
 
     Scene scene;
 
@@ -87,7 +87,7 @@ public class EnemySpawner : MonoBehaviour
     {
         var enemyY = TrailsManager.instance.OccupiedTrail.trailObject.transform.position.y;
 
-        if (scene.name == "ManualScene")
+        if (scene.name == "Cena 1")
         {
             if (audioSource.timeSamples >= 617164 && enemySpawn[0] == false)
             {   //aprox. 14 segundos/617400 
@@ -565,7 +565,7 @@ public class EnemySpawner : MonoBehaviour
     */
     void moveTriggerEnemies()
     {
-        if (scene.name == "ManualScene")
+        if (scene.name == "Cena 1")
         {
             if (audioSource.timeSamples >= 708704 && enemySpawn[0] == true)
             { //aprox. 16.083 segundos/709283
